@@ -1,0 +1,405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.0
+          ],
+          [
+            121.001,
+            31.0
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R01",
+        "from_node": "SIM-N1",
+        "to_node": "SIM-N2",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.0
+          ],
+          [
+            121.002,
+            31.0
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R02",
+        "from_node": "SIM-N2",
+        "to_node": "SIM-N3",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.001
+          ],
+          [
+            121.001,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R03",
+        "from_node": "SIM-N4",
+        "to_node": "SIM-N5",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.001
+          ],
+          [
+            121.002,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R04",
+        "from_node": "SIM-N5",
+        "to_node": "SIM-N6",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.002
+          ],
+          [
+            121.001,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R05",
+        "from_node": "SIM-N7",
+        "to_node": "SIM-N8",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.002
+          ],
+          [
+            121.002,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R06",
+        "from_node": "SIM-N8",
+        "to_node": "SIM-N9",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.0
+          ],
+          [
+            121.0,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R07",
+        "from_node": "SIM-N1",
+        "to_node": "SIM-N4",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.001
+          ],
+          [
+            121.0,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R08",
+        "from_node": "SIM-N4",
+        "to_node": "SIM-N7",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.0
+          ],
+          [
+            121.001,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R09",
+        "from_node": "SIM-N2",
+        "to_node": "SIM-N5",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.001
+          ],
+          [
+            121.001,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R10",
+        "from_node": "SIM-N5",
+        "to_node": "SIM-N8",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.002,
+            31.0
+          ],
+          [
+            121.002,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R11",
+        "from_node": "SIM-N3",
+        "to_node": "SIM-N6",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.002,
+            31.001
+          ],
+          [
+            121.002,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R12",
+        "from_node": "SIM-N6",
+        "to_node": "SIM-N9",
+        "length_m": 150,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.0
+          ],
+          [
+            121.001,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R13",
+        "from_node": "SIM-N1",
+        "to_node": "SIM-N5",
+        "length_m": 220,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.001
+          ],
+          [
+            121.002,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R14",
+        "from_node": "SIM-N5",
+        "to_node": "SIM-N9",
+        "length_m": 220,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.002,
+            31.0
+          ],
+          [
+            121.001,
+            31.001
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R15",
+        "from_node": "SIM-N3",
+        "to_node": "SIM-N5",
+        "length_m": 220,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31.001
+          ],
+          [
+            121.0,
+            31.002
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SIM-R16",
+        "from_node": "SIM-N5",
+        "to_node": "SIM-N7",
+        "length_m": 220,
+        "speed_kmh": 20,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    }
+  ]
+}

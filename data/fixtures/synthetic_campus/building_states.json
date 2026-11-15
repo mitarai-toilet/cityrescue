@@ -1,0 +1,32 @@
+[
+  {
+    "building_id": "SIM-B01",
+    "time_min": 20,
+    "risk_level": "unknown",
+    "reason": "合成地震情景；无结构数据，不推断倒塌概率"
+  },
+  {
+    "building_id": "SIM-B02",
+    "time_min": 20,
+    "risk_level": "unknown",
+    "reason": "合成地震情景；无结构数据，不推断倒塌概率"
+  },
+  {
+    "building_id": "SIM-B03",
+    "time_min": 20,
+    "risk_level": "unknown",
+    "reason": "合成地震情景；无结构数据，不推断倒塌概率"
+  },
+  {
+    "building_id": "SIM-B04",
+    "time_min": 20,
+    "risk_level": "unknown",
+    "reason": "合成地震情景；无结构数据，不推断倒塌概率"
+  },
+  {
+    "building_id": "SIM-B05",
+    "time_min": 20,
+    "risk_level": "unknown",
+    "reason": "合成地震情景；无结构数据，不推断倒塌概率"
+  }
+]

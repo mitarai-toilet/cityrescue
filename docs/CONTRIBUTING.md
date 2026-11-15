@@ -18,4 +18,4 @@ PR 描述需写明目的、改动模块、验证命令及结果、数据来源/�
 
 ## 接口变更
 
-先讨论并更新 `contracts/schema_v0_1.json` 和 `contracts/sample_v0_1.json`，再修改生产/消费模块。PR 必须说明兼容性和迁移影响，并通过契约测试。未经核实的数据不得标作真实；禁止提交 API Key、令牌或本地 `.env`。
+唯一正式契约位于 `contracts/schemas/`。先更新对应实体 Schema、`data/fixtures/synthetic_campus/` 样例与校验测试，再修改生产/消费模块。`contracts/schema_v0_1.json` 和 `contracts/sample_v0_1.json` 是历史兼容参考，不作为新模块开发依据。PR 必须说明兼容性和迁移影响，并通过契约测试。未经核实的数据不得标作真实；禁止提交 API Key、令牌或本地 `.env`。

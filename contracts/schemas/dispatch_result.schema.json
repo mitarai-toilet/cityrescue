@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dispatch_result",
+  "type": "object",
+  "required": [
+    "run_id",
+    "state_version",
+    "assignments",
+    "unassigned_events",
+    "outcome"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_version": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "vehicle_id",
+          "road_ids",
+          "eta_min",
+          "outcome"
+        ],
+        "properties": {
+          "event_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "vehicle_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "road_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "eta_min": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "outcome": {
+            "enum": [
+              "assigned",
+              "unreachable"
+            ]
+          },
+          "reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "unassigned_events": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "outcome": {
+      "enum": [
+        "complete",
+        "partial",
+        "unreachable"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

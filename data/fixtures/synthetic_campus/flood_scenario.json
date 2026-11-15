@@ -1,0 +1,12 @@
+{
+  "scenario_id": "SIM-FLOOD-01",
+  "campus_id": "SIM-CAMPUS-01",
+  "hazard_type": "flood",
+  "params": {
+    "rainfall_mm_h": 80,
+    "closure_depth_m": 0.3
+  },
+  "duration_min": 60,
+  "step_min": 10,
+  "seed": 42
+}

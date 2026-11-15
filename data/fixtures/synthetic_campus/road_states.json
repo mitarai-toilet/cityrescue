@@ -1,0 +1,1122 @@
+[
+  {
+    "road_id": "SIM-R01",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 0,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 0
+  },
+  {
+    "road_id": "SIM-R01",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 10,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 1
+  },
+  {
+    "road_id": "SIM-R01",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 20,
+    "status": "closed",
+    "depth_m": 0.4,
+    "risk_penalty_min": 0,
+    "reason": "合成洪涝封路",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 20,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 2
+  },
+  {
+    "road_id": "SIM-R01",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 30,
+    "status": "closed",
+    "depth_m": 0.4,
+    "risk_penalty_min": 0,
+    "reason": "合成洪涝封路",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 30,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 3
+  },
+  {
+    "road_id": "SIM-R01",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 40,
+    "status": "closed",
+    "depth_m": 0.4,
+    "risk_penalty_min": 0,
+    "reason": "合成洪涝封路",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 40,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 4
+  },
+  {
+    "road_id": "SIM-R01",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 50,
+    "status": "closed",
+    "depth_m": 0.4,
+    "risk_penalty_min": 0,
+    "reason": "合成洪涝封路",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 50,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 5
+  },
+  {
+    "road_id": "SIM-R01",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R02",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R03",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R04",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R05",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R06",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R07",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R08",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R09",
+    "time_min": 60,
+    "status": "closed",
+    "depth_m": 0.4,
+    "risk_penalty_min": 0,
+    "reason": "合成洪涝封路",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R10",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R11",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R12",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R13",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R14",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R15",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  },
+  {
+    "road_id": "SIM-R16",
+    "time_min": 60,
+    "status": "open",
+    "depth_m": 0.0,
+    "risk_penalty_min": 1,
+    "reason": "合成基线",
+    "source": "hazard",
+    "state_version": 6
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "scenario_id": "SIM-EARTHQUAKE-01",
+  "campus_id": "SIM-CAMPUS-01",
+  "hazard_type": "earthquake",
+  "params": {
+    "affected_road_ids": [
+      "SIM-R09",
+      "SIM-R14"
+    ],
+    "building_risk_seed": 42
+  },
+  "duration_min": 60,
+  "step_min": 10,
+  "seed": 42
+}

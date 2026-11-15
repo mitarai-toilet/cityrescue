@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.0,
+              31.0
+            ],
+            [
+              121.0002,
+              31.0
+            ],
+            [
+              121.0002,
+              31.0002
+            ],
+            [
+              121.0,
+              31.0002
+            ],
+            [
+              121.0,
+              31.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "SIM-B01",
+        "name": "合成建筑1",
+        "data_origin": "synthetic",
+        "height_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.002,
+              31.0
+            ],
+            [
+              121.0022,
+              31.0
+            ],
+            [
+              121.0022,
+              31.0002
+            ],
+            [
+              121.002,
+              31.0002
+            ],
+            [
+              121.002,
+              31.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "SIM-B02",
+        "name": "合成建筑2",
+        "data_origin": "synthetic",
+        "height_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.0,
+              31.001
+            ],
+            [
+              121.0002,
+              31.001
+            ],
+            [
+              121.0002,
+              31.0012
+            ],
+            [
+              121.0,
+              31.0012
+            ],
+            [
+              121.0,
+              31.001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "SIM-B03",
+        "name": "合成建筑3",
+        "data_origin": "synthetic",
+        "height_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.002,
+              31.001
+            ],
+            [
+              121.0022,
+              31.001
+            ],
+            [
+              121.0022,
+              31.0012
+            ],
+            [
+              121.002,
+              31.0012
+            ],
+            [
+              121.002,
+              31.001
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "SIM-B04",
+        "name": "合成建筑4",
+        "data_origin": "synthetic",
+        "height_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.001,
+              31.002
+            ],
+            [
+              121.0012,
+              31.002
+            ],
+            [
+              121.0012,
+              31.0022
+            ],
+            [
+              121.001,
+              31.0022
+            ],
+            [
+              121.001,
+              31.002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "SIM-B05",
+        "name": "合成建筑5",
+        "data_origin": "synthetic",
+        "height_m": null
+      }
+    }
+  ]
+}

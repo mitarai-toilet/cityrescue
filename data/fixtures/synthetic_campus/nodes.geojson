@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          31.0
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.001,
+          31.0
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.002,
+          31.0
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          31.001
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.001,
+          31.001
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.002,
+          31.001
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0,
+          31.002
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.001,
+          31.002
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.002,
+          31.002
+        ]
+      },
+      "properties": {
+        "node_id": "SIM-N9"
+      }
+    }
+  ]
+}

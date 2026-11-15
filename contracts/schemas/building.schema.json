@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "building",
+  "type": "object",
+  "required": [
+    "building_id",
+    "name",
+    "geometry",
+    "data_origin"
+  ],
+  "properties": {
+    "building_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "geometry": {
+      "type": "object",
+      "required": [
+        "type",
+        "coordinates"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "Polygon",
+            "MultiPolygon"
+          ]
+        },
+        "coordinates": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": false
+    },
+    "data_origin": {
+      "enum": [
+        "real",
+        "estimated",
+        "synthetic"
+      ]
+    },
+    "height_m": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    }
+  },
+  "additionalProperties": false
+}

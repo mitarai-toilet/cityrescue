@@ -1,0 +1,42 @@
+{
+  "data_status": "synthetic",
+  "scenarios": {
+    "normal": {
+      "from": "SIM-N1",
+      "to": "SIM-N3",
+      "closed_roads": [],
+      "reachable": true
+    },
+    "flood_detour": {
+      "from": "SIM-N1",
+      "to": "SIM-N8",
+      "closed_roads": [
+        "SIM-R09"
+      ],
+      "reachable": true
+    },
+    "earthquake_block": {
+      "closed_roads": [
+        "SIM-R09",
+        "SIM-R14"
+      ],
+      "note": "通过图用例校验可达性变化"
+    },
+    "fully_unreachable": {
+      "from": "SIM-N1",
+      "to": "SIM-N3",
+      "closed_roads": [
+        "SIM-R01",
+        "SIM-R07",
+        "SIM-R13"
+      ],
+      "reachable": false
+    },
+    "manual_closure": {
+      "closed_roads": [
+        "SIM-R01"
+      ],
+      "state_version": 99
+    }
+  }
+}

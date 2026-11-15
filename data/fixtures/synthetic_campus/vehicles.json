@@ -1,0 +1,19 @@
+[
+  {
+    "vehicle_id": "SIM-V1",
+    "node_id": "SIM-N1",
+    "capability": [
+      "medical",
+      "general"
+    ],
+    "available_at_min": 0
+  },
+  {
+    "vehicle_id": "SIM-V2",
+    "node_id": "SIM-N7",
+    "capability": [
+      "general"
+    ],
+    "available_at_min": 0
+  }
+]

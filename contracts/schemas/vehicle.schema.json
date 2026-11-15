@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "vehicle",
+  "type": "object",
+  "required": [
+    "vehicle_id",
+    "node_id",
+    "capability",
+    "available_at_min"
+  ],
+  "properties": {
+    "vehicle_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "capability": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "available_at_min": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

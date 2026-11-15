@@ -3,24 +3,287 @@
   "$id": "https://cityrescue.local/contracts/schema-v0.1.json",
   "title": "CITYRESCUE AI contract v0.1",
   "type": "object",
-  "required": ["contract_version", "scenario", "roads", "road_states", "vehicles", "events", "dispatch_result"],
+  "required": [
+    "contract_version",
+    "scenario",
+    "roads",
+    "road_states",
+    "vehicles",
+    "events",
+    "dispatch_result"
+  ],
   "properties": {
-    "contract_version": {"const": "0.1"},
-    "scenario": {"$ref": "#/$defs/Scenario"},
-    "roads": {"type": "array", "items": {"$ref": "#/$defs/Road"}},
-    "road_states": {"type": "array", "items": {"$ref": "#/$defs/RoadState"}},
-    "vehicles": {"type": "array", "items": {"$ref": "#/$defs/Vehicle"}},
-    "events": {"type": "array", "items": {"$ref": "#/$defs/Event"}},
-    "dispatch_result": {"$ref": "#/$defs/DispatchResult"}
+    "contract_version": {
+      "const": "0.1"
+    },
+    "scenario": {
+      "$ref": "#/$defs/Scenario"
+    },
+    "roads": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Road"
+      }
+    },
+    "road_states": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RoadState"
+      }
+    },
+    "vehicles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Vehicle"
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Event"
+      }
+    },
+    "dispatch_result": {
+      "$ref": "#/$defs/DispatchResult"
+    }
   },
   "$defs": {
-    "Road": {"type":"object","required":["road_id","from_node_id","to_node_id","length_m","geometry"],"properties":{"road_id":{"type":"string"},"from_node_id":{"type":"string"},"to_node_id":{"type":"string"},"length_m":{"type":"number","exclusiveMinimum":0},"geometry":{"type":"array","minItems":2,"items":{"$ref":"#/$defs/Coordinate"}},"data_status":{"enum":["verified","estimated","synthetic"]}},"additionalProperties":false},
-    "Coordinate": {"type":"array","prefixItems":[{"type":"number","minimum":-180,"maximum":180},{"type":"number","minimum":-90,"maximum":90}],"minItems":2,"maxItems":2},
-    "RoadState": {"type":"object","required":["road_id","status","state_version","reason"],"properties":{"road_id":{"type":"string"},"status":{"enum":["open","caution","closed"]},"risk_cost":{"type":"number","minimum":0},"state_version":{"type":"integer","minimum":0},"reason":{"type":"string"}},"additionalProperties":false},
-    "Scenario": {"type":"object","required":["scenario_id","hazard_type","time_min","seed","data_status"],"properties":{"scenario_id":{"type":"string"},"hazard_type":{"enum":["flood","earthquake"]},"time_min":{"type":"integer","minimum":0},"seed":{"type":"integer"},"data_status":{"const":"synthetic"},"description":{"type":"string"}},"additionalProperties":false},
-    "Vehicle": {"type":"object","required":["vehicle_id","node_id","capacity","status"],"properties":{"vehicle_id":{"type":"string"},"node_id":{"type":"string"},"capacity":{"type":"integer","minimum":1},"status":{"enum":["available","assigned","unavailable"]}},"additionalProperties":false},
-    "Event": {"type":"object","required":["event_id","node_id","event_type","priority"],"properties":{"event_id":{"type":"string"},"node_id":{"type":"string"},"event_type":{"type":"string"},"priority":{"type":"integer","minimum":1,"maximum":5}},"additionalProperties":false},
-    "DispatchResult": {"type":"object","required":["assignments","unassigned_event_ids","explanation","data_status"],"properties":{"assignments":{"type":"array","items":{"type":"object","required":["vehicle_id","event_id","road_ids","eta_min"],"properties":{"vehicle_id":{"type":"string"},"event_id":{"type":"string"},"road_ids":{"type":"array","items":{"type":"string"}},"eta_min":{"type":"number","minimum":0}},"additionalProperties":false}},"unassigned_event_ids":{"type":"array","items":{"type":"string"}},"explanation":{"type":"string"},"data_status":{"const":"synthetic"}},"additionalProperties":false}
+    "Road": {
+      "type": "object",
+      "required": [
+        "road_id",
+        "from_node_id",
+        "to_node_id",
+        "length_m",
+        "geometry"
+      ],
+      "properties": {
+        "road_id": {
+          "type": "string"
+        },
+        "from_node_id": {
+          "type": "string"
+        },
+        "to_node_id": {
+          "type": "string"
+        },
+        "length_m": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "geometry": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/Coordinate"
+          }
+        },
+        "data_status": {
+          "enum": [
+            "verified",
+            "estimated",
+            "synthetic"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Coordinate": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "RoadState": {
+      "type": "object",
+      "required": [
+        "road_id",
+        "status",
+        "state_version",
+        "reason"
+      ],
+      "properties": {
+        "road_id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "open",
+            "caution",
+            "closed"
+          ]
+        },
+        "risk_cost": {
+          "type": "number",
+          "minimum": 0
+        },
+        "state_version": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Scenario": {
+      "type": "object",
+      "required": [
+        "scenario_id",
+        "hazard_type",
+        "time_min",
+        "seed",
+        "data_status"
+      ],
+      "properties": {
+        "scenario_id": {
+          "type": "string"
+        },
+        "hazard_type": {
+          "enum": [
+            "flood",
+            "earthquake"
+          ]
+        },
+        "time_min": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "data_status": {
+          "const": "synthetic"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Vehicle": {
+      "type": "object",
+      "required": [
+        "vehicle_id",
+        "node_id",
+        "capacity",
+        "status"
+      ],
+      "properties": {
+        "vehicle_id": {
+          "type": "string"
+        },
+        "node_id": {
+          "type": "string"
+        },
+        "capacity": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "enum": [
+            "available",
+            "assigned",
+            "unavailable"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Event": {
+      "type": "object",
+      "required": [
+        "event_id",
+        "node_id",
+        "event_type",
+        "priority"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string"
+        },
+        "node_id": {
+          "type": "string"
+        },
+        "event_type": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "additionalProperties": false
+    },
+    "DispatchResult": {
+      "type": "object",
+      "required": [
+        "assignments",
+        "unassigned_event_ids",
+        "explanation",
+        "data_status"
+      ],
+      "properties": {
+        "assignments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "vehicle_id",
+              "event_id",
+              "road_ids",
+              "eta_min"
+            ],
+            "properties": {
+              "vehicle_id": {
+                "type": "string"
+              },
+              "event_id": {
+                "type": "string"
+              },
+              "road_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "eta_min": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "unassigned_event_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "data_status": {
+          "const": "synthetic"
+        }
+      },
+      "additionalProperties": false
+    }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$comment": "Legacy aggregate sample schema retained for backward compatibility. Canonical v0.1 entity schemas are contracts/schemas/*.schema.json; migrate existing consumers incrementally."
 }

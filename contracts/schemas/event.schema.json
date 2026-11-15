@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "node_id",
+    "priority",
+    "demand",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "demand": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "assigned",
+        "in_progress",
+        "completed",
+        "unreachable"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

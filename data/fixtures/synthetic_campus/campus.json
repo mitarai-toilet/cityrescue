@@ -1,0 +1,8 @@
+{
+  "campus_id": "SIM-CAMPUS-01",
+  "name": "合成校园样例（非真实地理测绘）",
+  "coordinate_system": "WGS84",
+  "data_origin": "synthetic",
+  "data_source": "人工构造的测试坐标与路网",
+  "verified": false
+}
