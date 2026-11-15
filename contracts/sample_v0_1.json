@@ -1,0 +1,15 @@
+{
+  "contract_version": "0.1",
+  "scenario": {"scenario_id":"SIM-D1-FLOOD-001","hazard_type":"flood","time_min":30,"seed":42,"data_status":"synthetic","description":"纯模拟演示数据；不是任何真实校园的道路或灾情"},
+  "roads": [
+    {"road_id":"SIM-R1","from_node_id":"SIM-N1","to_node_id":"SIM-N2","length_m":120,"geometry":[[121.0,31.0],[121.001,31.0]],"data_status":"synthetic"},
+    {"road_id":"SIM-R2","from_node_id":"SIM-N2","to_node_id":"SIM-N3","length_m":90,"geometry":[[121.001,31.0],[121.001,31.001]],"data_status":"synthetic"}
+  ],
+  "road_states": [
+    {"road_id":"SIM-R1","status":"open","risk_cost":0,"state_version":1,"reason":"模拟：无影响"},
+    {"road_id":"SIM-R2","status":"caution","risk_cost":2,"state_version":1,"reason":"模拟：积水情景，待真实模型定义"}
+  ],
+  "vehicles": [{"vehicle_id":"SIM-V1","node_id":"SIM-N1","capacity":2,"status":"available"}],
+  "events": [{"event_id":"SIM-E1","node_id":"SIM-N3","event_type":"rescue_request","priority":1}],
+  "dispatch_result": {"assignments":[{"vehicle_id":"SIM-V1","event_id":"SIM-E1","road_ids":["SIM-R1","SIM-R2"],"eta_min":6}],"unassigned_event_ids":[],"explanation":"模拟结果，仅用于接口测试；非算法输出","data_status":"synthetic"}
+}
