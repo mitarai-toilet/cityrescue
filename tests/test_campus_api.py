@@ -8,7 +8,7 @@ import sys
 import time
 from contextlib import contextmanager
 from urllib.error import HTTPError, URLError
-from urllib.request import ProxyHandler, build_opener
+from urllib.request import ProxyHandler, Request, build_opener
 
 import pytest
 from jsonschema import Draft202012Validator
@@ -30,9 +30,13 @@ def server(directory):
     opener = build_opener(ProxyHandler({}))
     url = f"http://127.0.0.1:{port}"
 
-    def request(path):
+    def request(path, body=None):
+        target = url + path
+        if body is not None:
+            target = Request(target, data=json.dumps(body).encode("utf-8"),
+                             headers={"Content-Type": "application/json"}, method="POST")
         try:
-            with opener.open(url + path, timeout=3) as response:
+            with opener.open(target, timeout=3) as response:
                 return response.status, json.load(response)
         except HTTPError as exc:
             return exc.code, json.load(exc)

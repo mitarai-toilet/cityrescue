@@ -90,3 +90,119 @@ roads.geojson、buildings.geojson。这些是合成占位数据，不代表任�
 下一轮建议 C/E 先约定 flood/earthquake 参数的服务层校验，沿用冻结 Scenario 输入；
 由 C 输出 RoadState/BuildingState，E 在运行包装层绑定 run_id/state_version，
 先验证对象引用和同快照唯一道路状态，再交给 D。任何实体字段调整须按冻结 PR 流程审批。
+
+## 灾害状态管理 API
+
+本节是 2026-11-22 的后端接口设计决策，未修改冻结的公共实体 Schema。
+本轮已实现固定情景回放和进程内运行隔离，没有实现真实灾害模型。
+
+| 方法与路径 | 请求/响应 |
+| --- | --- |
+| GET /api/v1/scenarios | 现有洪涝、地震 Scenario 数组 |
+| GET /api/v1/scenarios/{scenario_id} | 对应 Scenario 实体；不存在返回 404 |
+| POST /api/v1/simulation/runs | 创建回放运行；201 返回运行信息包装 |
+| GET /api/v1/simulation/runs/{run_id} | 运行信息、当前版本和来源 |
+| GET /api/v1/simulation/runs/{run_id}/roads | 当前运行的 RoadState 数组 |
+| GET /api/v1/simulation/runs/{run_id}/buildings | 当前运行的 BuildingState 数组 |
+| GET /api/v1/simulation/runs/{run_id}/state | 运行信息加 roads/buildings 的完整快照 |
+
+创建洪涝回放请求：
+
+```json
+{"scenario_id":"SIM-FLOOD-01"}
+```
+
+创建地震回放请求：
+
+```json
+{"scenario_id":"SIM-EARTHQUAKE-01","params":{"affected_road_ids":["SIM-R09","SIM-R14"],"building_risk_seed":42}}
+```
+
+`params` 可省略或为 null，表示使用该 Scenario.params；显式提供时必须与固定情景完全相同，
+否则返回 422 `unsupported_replay_parameters`。不接受顶层 seed、duration_min、step_min
+等覆盖字段，也不接受自定义灾种或任意输入 Scenario；这些字段由查询到的 Scenario 决定。
+这是固定数据回放限制，不是对冻结 Schema 新增字段规则，也不代表能计算不同降雨或强度。
+
+运行信息响应结构如下（run_id 的占位字符串说明结构，真实值由服务器生成）：
+
+```text
+{
+  run_id: "run-<随机 UUID hex>",
+  scenario_id: "SIM-FLOOD-01",
+  state_version: 0,
+  time_min: 20,
+  mode: "fixture_replay",
+  data_origin: "synthetic",
+  scenario: <原始 Scenario 实体>,
+  provenance: <说明所用 fixture 文件和处理方式的字符串数组>
+}
+```
+
+整体 state 响应在上述包装上增加 `roads`、`buildings` 数组，内部严格使用冻结实体。
+OpenAPI 直接嵌入对应实体 Schema，并定义运行包装的必填字段与类型；包装字段不属于实体契约。
+
+### 实际 fixture 支持边界
+
+- 洪涝：读取 road_states.json 的第 20 分钟快照，SIM-R09 关闭；没有洪涝建筑 fixture，
+  因此 buildings 返回空数组，表示无可用输出，不表示建筑没有风险。
+- 地震：现有 fixture 没有完整地震道路快照；provider 仅取 road_states.json 第 0 分钟的道路 ID，
+  使用 earthquake_scenario.json 的 affected_road_ids 固定关闭 SIM-R09、SIM-R14。
+  所有道路输出时间为 20，非关闭道路为 open，depth_m=null、risk_penalty_min=0；这是
+  明示的回放适配规则，未计算地震危险度，也未复用洪涝水深/风险。
+  建筑状态读取 building_states.json，5 栋建筑 risk_level 均为 unknown。
+- provider 校验状态 Schema、道路/建筑引用、重复道路时间片、时间步长及当前快照道路完整性。
+  地震建筑状态时间必须与快照一致；数据错误不发布部分运行。
+- 此处只初始化一个固定快照，不实现自动时间推进、全时间线播放或真实计算。
+
+### 运行编号和版本
+
+`scenario_id` 指可复用的固定情景；每次 POST 都产生独立的 `run_id`，包括重复的 scenario_id。
+每个运行初始 `state_version=0`，把回放道路实体内的版本统一为当前运行版本，
+不把 fixture 的历史版本当作运行版本。原 fixture 文件不变。BuildingState 没有版本字段，
+它与 roads 同属外层快照版本。
+
+创建新运行不替换任何已有运行、不修改校园空间数据；无全局“当前运行”。
+GET 返回防御性副本，不改变版本。版本编号仅在 run_id 内比较，不能跨运行比较。
+未来人工封路入口应对完整校验后的新快照作原子发布，每次成功修改加 1，
+但本轮未实现更新 API、旧版本冲突拦截或派车。
+
+每个 FastAPI app 实例有一个 RunStore；锁保护原子发布和读取，防御性拷贝隔离调用方。
+所有 provider 输出通过验证后才进入发布点。尚无容量限制/淘汰策略，适用于短期单进程联调。
+进程重启、reload 或新 app 实例会丢失全部 run_id；请使用单 worker，多个 worker 的内存不共享。
+创建新 app 后查询旧运行返回 404。线程锁不提供跨进程一致性。
+
+### 错误与 provider 对接
+
+不存在的情景/运行返回 404 `scenario_not_found` / `run_not_found`。
+非法请求字段或不支持的参数覆盖返回 422；fixture 缺失/JSON 损坏/状态无效返回 503，
+包括 `data_file_missing`、`invalid_json`、`invalid_simulation_data`、`invalid_reference`。
+错误响应沿用 detail.code/message 包装；404 code 无 message 也是有效响应。
+
+C 可实现 `backend.simulation.SimulationProvider`，提供：
+
+```python
+def scenarios(self) -> list[dict]: ...
+def replay(self, scenario: dict) -> Replay: ...
+```
+
+返回值为 `Replay(scenario, time_min, roads, buildings, provenance)`；实体必须符合冻结
+Scenario/RoadState/BuildingState，引用有效资产，无重复/矛盾状态，时间片一致。
+通过 `create_app(simulation_provider=provider)` 注入，不需要更改只读校园 API。
+run_id 和运行版本由 E 的 RunStore 维护，C 不分配运行版本。
+目前这个接口只定义同步单快照返回；未来真实计算需共同升级 API 模式及来源包装，
+当前 `mode=fixture_replay/data_origin=synthetic` 不得直接复用于真实模型的标签。
+
+### 灾害状态测试
+
+```powershell
+.\.venv\Scripts\python.exe -m py_compile backend/app.py backend/simulation.py tests/test_campus_api.py tests/test_simulation_api.py
+.\.venv\Scripts\python.exe -m pytest -q tests/test_simulation_api.py tests/test_campus_api.py tests/test_contracts.py tests/test_fixture_integrity.py tests/test_schema_validation.py tests/test_api.py
+```
+
+测试包含真实 Uvicorn HTTP 请求、Scenario 查询、两灾种创建、Schema 校验、404/422/503、
+重复 GET 不变、并发独立创建、深拷贝隔离与重启后运行丢失，以及原校园/健康/契约回归。
+需允许本地 HTTP 与线程访问；此前受限执行环境的超时不等同于接口逻辑失败。
+
+本轮最终执行结果（2026-11-22）：**41 passed in 16.70s**，0 failed、0 skipped。
+包含 9 项灾害状态测试、7 项校园 HTTP 测试、24 项契约/fixture/Schema 测试和
+1 项原 ASGI 健康测试。Python 编译检查通过，冻结 Schema 和空间 fixture 未改动。
