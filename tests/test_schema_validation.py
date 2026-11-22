@@ -2,6 +2,8 @@ import json
 from pathlib import Path
 import pytest
 from jsonschema import Draft202012Validator
+from referencing import Registry, Resource
+from copy import deepcopy
 
 ROOT=Path(__file__).resolve().parents[1]
 FIX=ROOT/'data/fixtures/synthetic_campus'
@@ -51,3 +53,53 @@ def test_invalid_examples_are_rejected(entity,mutator):
     mutator(sample)
     validator=Draft202012Validator(load(SCHEMAS/f'{entity}.schema.json'))
     assert not validator.is_valid(sample)
+
+
+def test_all_fixture_entities_and_aggregate_offline():
+    resources = []
+    for path in SCHEMAS.glob('*.schema.json'):
+        resources.append(('https://cityrescue.local/contracts/schemas/' + path.name,
+                          Resource.from_contents(load(path))))
+    registry = Registry().with_resources(resources)
+    aggregate = load(ROOT / 'contracts/schema_v0_1.json')
+    Draft202012Validator.check_schema(aggregate)
+    Draft202012Validator(aggregate, registry=registry).validate(
+        load(ROOT / 'contracts/sample_v0_1.json'))
+    collections = {
+        'campus': [load(FIX / 'campus.json')],
+        'node': [{'node_id': f['properties']['node_id'], 'position': f['geometry']}
+                 for f in load(FIX / 'nodes.geojson')['features']],
+        'road': [{**f['properties'], 'geometry': f['geometry']}
+                 for f in load(FIX / 'roads.geojson')['features']],
+        'building': [{**f['properties'], 'geometry': f['geometry']}
+                     for f in load(FIX / 'buildings.geojson')['features']],
+        'scenario': [load(FIX / 'flood_scenario.json'), load(FIX / 'earthquake_scenario.json')],
+        'road_state': load(FIX / 'road_states.json'),
+        'building_state': load(FIX / 'building_states.json'),
+        'vehicle': load(FIX / 'vehicles.json'), 'event': load(FIX / 'events.json'),
+    }
+    snapshots = load(FIX / 'manual_closure_snapshots.json')
+    for label in ('before', 'after'):
+        snapshot = snapshots[label]
+        for state in snapshot['road_states']:
+            collections['road_state'].append({**state, 'time_min': snapshot['time_min']})
+    for entity, records in collections.items():
+        validator = Draft202012Validator(load(SCHEMAS / f'{entity}.schema.json'))
+        for record in records:
+            validator.validate(record)
+    for path in list((ROOT / 'contracts').rglob('*.json')) + list(FIX.glob('*.json')) + list(FIX.glob('*.geojson')):
+        load(path)
+
+
+@pytest.mark.parametrize('entity', sorted(samples()))
+def test_required_fields_types_and_enums_rejected_for_every_entity(entity):
+    schema = load(SCHEMAS / f'{entity}.schema.json')
+    validator = Draft202012Validator(schema)
+    for field in schema['required']:
+        invalid = deepcopy(samples()[entity])
+        del invalid[field]
+        assert not validator.is_valid(invalid), (entity, field)
+    for field, spec in schema['properties'].items():
+        invalid = deepcopy(samples()[entity])
+        invalid[field] = '__INVALID_ENUM__' if 'enum' in spec or 'const' in spec or spec.get('type') == 'boolean' else False
+        assert not validator.is_valid(invalid), (entity, field)

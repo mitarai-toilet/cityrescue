@@ -86,3 +86,29 @@ def test_manual_closure_versions_increase():
     assert snapshots["after"]["road_states"][0]["status"] == "closed"
 
 
+def test_closures_change_paths_and_preserve_snapshot_identity():
+    roads = {f['properties']['road_id']: f['properties'] for f in read('roads.geojson')['features']}
+    normal = _graph()
+    # Verify actual affected endpoints, rather than only checking that some path exists.
+    for closed in (['SIM-R09'], read('earthquake_scenario.json')['params']['affected_road_ids']):
+        graph = _graph(closed)
+        for a, b, attrs in graph.edges(data=True):
+            assert attrs['road_id'] not in closed
+            road = roads[attrs['road_id']]
+            assert (a, b) == (road['from_node'], road['to_node']) or not road['one_way']
+        road = roads[closed[0]]
+        start, end = road['from_node'], road['to_node']
+        assert nx.shortest_path(normal, start, end) != nx.shortest_path(graph, start, end)
+    states = read('road_states.json')
+    keys = [(s['state_version'], s['time_min'], s['road_id']) for s in states]
+    assert len(keys) == len(set(keys))
+    scenario = read('flood_scenario.json')
+    assert {s['time_min'] for s in states} == set(range(0, scenario['duration_min'] + 1, scenario['step_min']))
+    snapshots = read('manual_closure_snapshots.json')
+    for label in ('before', 'after'):
+        snapshot = snapshots[label]
+        for state in snapshot['road_states']:
+            assert state['road_id'] in roads
+            assert state['state_version'] == snapshot['state_version']
+
+

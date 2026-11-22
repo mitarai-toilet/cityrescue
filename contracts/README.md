@@ -1,6 +1,10 @@
 # CITYRESCUE AI 数据契约 v0.1
 
-本目录定义团队共享的 JSON Schema Draft 2020-12 实体契约。实体 Schema 位于 `contracts/schemas/`；较早的 `schema_v0_1.json` 和 `sample_v0_1.json` 为兼容旧消费者保留的聚合格式，不应继续扩展为第二套规范。新模块使用实体 Schema 与 `data/fixtures/synthetic_campus/` 样例。
+状态：已冻结，供团队开发与联调使用。冻结日期：2026-11-22。
+唯一正式实体规范：`contracts/schemas/*.schema.json`。
+冻结范围、已知限制和实际验收结果见 [FREEZE_v0_1.md](FREEZE_v0_1.md)。
+
+本目录定义团队共享的 JSON Schema Draft 2020-12 实体契约。`schema_v0_1.json` 仅为引用正式实体 Schema 的聚合入口；`sample_v0_1.json` 已采用统一字段。旧字段定义可从 Git 历史查阅，不再作为开发依据。新模块使用实体 Schema 与 `data/fixtures/synthetic_campus/` 样例。
 
 ## 实体与规则
 
@@ -24,7 +28,7 @@ GeoJSON Feature 的业务 ID 位于 `properties`。读取 JSON 示例：`json.lo
 
 ## 版本与团队交接
 
-冻结 v0.1 前，公共字段不得由成员自行改名。契约变更先由提出者开 PR，说明兼容性、迁移方案并同时更新 Schema、fixture 和测试；E 组织评审，五人确认后合并。破坏性字段调整应升主版本；兼容增量更新版本/变更记录。
+冻结后，公共字段不得由成员自行改名。契约变更先由提出者开 PR，说明兼容性、迁移方案并同时更新 Schema、fixture 和测试；涉及成员评审，由队长批准。破坏兼容性的修改必须显式升级契约版本；兼容增量更新版本/变更记录。
 
 - A 输入来源及许可记录，输出 Campus、Node、Road、Building 与设施空间数据。
 - B 读取空间数据、RoadState、DispatchResult，绘制底图、风险层、车辆和路线。
@@ -33,3 +37,7 @@ GeoJSON Feature 的业务 ID 位于 `properties`。读取 JSON 示例：`json.lo
 - E 维护 API 编排与 `state_version`，消费真实计算证据生成 ExplainResult。
 
 各成员不得自行重新命名公共字段。样例中的人工封路版本递增仅用于数据测试，不证明后端版本冲突拦截已实现。
+
+## Canonical aggregate migration
+
+The root aggregate now references the canonical entity schemas and its sample uses canonical fields. Historical definitions remain in Git history. See [MIGRATION_v0_1.md](MIGRATION_v0_1.md) for all field differences and unresolved semantic limits. No risk_cost-to-minutes conversion is defined.
