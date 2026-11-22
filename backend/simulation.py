@@ -12,6 +12,7 @@ from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
 
 from backend.campus import CampusDataError, entity_schema, load_campus, read_json
+from backend.providers import invoke
 
 
 @dataclass
@@ -21,6 +22,8 @@ class Replay:
     roads: list[dict]
     buildings: list[dict]
     provenance: list[str]
+    mode: str = 'fixture_replay'
+    data_origin: str = 'synthetic'
 
 
 class SimulationProvider(Protocol):
@@ -37,7 +40,7 @@ def validate(entity: str, records: list[dict]):
         try:
             validator.validate(record)
         except ValidationError as exc:
-            raise CampusDataError("invalid_simulation_data", f"Invalid {entity}: {exc.message}") from exc
+            raise CampusDataError("invalid_simulation_data", f"Invalid {entity} provider record") from exc
 
 
 class FixtureSimulationProvider:
@@ -102,8 +105,9 @@ class FixtureSimulationProvider:
 class RunStore:
     """App-local memory. Atomic publication and defensive copies isolate all readers."""
 
-    def __init__(self, provider: SimulationProvider):
+    def __init__(self, provider: SimulationProvider, spatial_loader=load_campus):
         self.provider = provider
+        self.spatial_loader = spatial_loader
         self._runs = {}
         self._base_roads = {}
         self._manual_closed = {}
@@ -111,8 +115,19 @@ class RunStore:
         self._dispatches = {}
         self._lock = Lock()
 
+    def scenarios(self):
+        scenarios = deepcopy(invoke(self.provider.scenarios))
+        if not isinstance(scenarios, list):
+            raise CampusDataError('invalid_simulation_data', 'Provider scenarios must be an array')
+        validate('scenario', scenarios)
+        campus_id = self.spatial_loader()['campus']['campus_id']
+        if (len({s['scenario_id'] for s in scenarios}) != len(scenarios)
+                or any(s['campus_id'] != campus_id for s in scenarios)):
+            raise CampusDataError('invalid_simulation_data', 'Invalid scenario IDs or Campus reference')
+        return scenarios
+
     def scenario(self, scenario_id):
-        for scenario in self.provider.scenarios():
+        for scenario in self.scenarios():
             if scenario["scenario_id"] == scenario_id:
                 return scenario
         raise HTTPException(404, detail={"code": "scenario_not_found"})
@@ -121,8 +136,12 @@ class RunStore:
         scenario = self.scenario(scenario_id)
         if params is not None and params != scenario["params"]:
             raise HTTPException(422, detail={"code": "unsupported_replay_parameters", "message": "Only exact fixture params are supported"})
-        replay = self.provider.replay(scenario)
+        replay = deepcopy(invoke(self.provider.replay, deepcopy(scenario)))
+        if not isinstance(replay, Replay):
+            raise CampusDataError('invalid_simulation_data', 'Provider must return Replay')
         validate("scenario", [replay.scenario])
+        if not isinstance(replay.roads, list) or not isinstance(replay.buildings, list):
+            raise CampusDataError('invalid_simulation_data', 'Provider states must be arrays')
         validate("road_state", replay.roads)
         validate("building_state", replay.buildings)
         if replay.scenario != scenario or not isinstance(replay.time_min, int) or replay.time_min < 0:
@@ -131,6 +150,17 @@ class RunStore:
             if (len({record[f"{kind}_id"] for record in records}) != len(records)
                     or any(record["time_min"] != replay.time_min for record in records)):
                 raise CampusDataError("invalid_simulation_data", "Provider snapshot is inconsistent")
+        spatial = self.spatial_loader()
+        if ({r['road_id'] for r in replay.roads} != {r['road_id'] for r in spatial['roads']}
+                or not {b['building_id'] for b in replay.buildings} <= {b['building_id'] for b in spatial['buildings']}):
+            raise CampusDataError('invalid_simulation_data', 'Provider state references invalid spatial assets')
+        if (type(replay.time_min) is not int or replay.time_min > scenario['duration_min']
+                or replay.time_min % scenario['step_min']
+                or replay.mode not in ('fixture_replay', 'simulation')
+                or replay.data_origin not in ('synthetic', 'estimated', 'real')
+                or not isinstance(replay.provenance, list)
+                or any(not isinstance(p, str) or not p for p in replay.provenance)):
+            raise CampusDataError('invalid_simulation_data', 'Invalid provider context')
         # Initial publication and manual updates both publish complete validated
         # snapshots under this lock; GET handlers never update this mapping.
         with self._lock:
@@ -139,7 +169,7 @@ class RunStore:
                 run_id = "run-" + uuid4().hex
             roads = [{**s, "state_version": 0} for s in replay.roads]
             snapshot = {"run_id": run_id, "scenario_id": scenario_id, "state_version": 0,
-                        "time_min": replay.time_min, "mode": "fixture_replay", "data_origin": "synthetic",
+                        "time_min": replay.time_min, "mode": replay.mode, "data_origin": replay.data_origin,
                         "scenario": deepcopy(replay.scenario), "provenance": replay.provenance,
                         "roads": roads, "buildings": deepcopy(replay.buildings)}
             self._runs[run_id] = deepcopy(snapshot)

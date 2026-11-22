@@ -190,8 +190,9 @@ def replay(self, scenario: dict) -> Replay: ...
 Scenario/RoadState/BuildingState，引用有效资产，无重复/矛盾状态，时间片一致。
 通过 `create_app(simulation_provider=provider)` 注入，不需要更改只读校园 API。
 run_id 和运行版本由 E 的 RunStore 维护，C 不分配运行版本。
-目前这个接口只定义同步单快照返回；未来真实计算需共同升级 API 模式及来源包装，
-当前 `mode=fixture_replay/data_origin=synthetic` 不得直接复用于真实模型的标签。
+目前这个接口只定义同步单快照返回；Replay 支持明确的 mode/data_origin，
+默认 `fixture_replay/synthetic` 不得直接复用于真实模型的标签。
+真实适配器可返回 `mode=simulation` 及对应来源，包装枚举已支持，实体 Schema 不变。
 
 ### 灾害状态测试
 
@@ -339,3 +340,29 @@ Python 编译、`git diff --check` 均通过；契约和空间 fixture 无改动
 11 月 26 日中期最小闭环仍需：D 提交真实 DispatchProvider（至少一车一任务路径、
 封路绕行和不可达）；B 接入当前 API 并显示版本冲突/来源标记与路线；C/E 共同确认
 灾害输出快照及时间片交接。两车三任务、真实校园合法数据与正式灾害计算仍需各责任人交付。
+
+## 第四步 Provider 集成验收
+
+调用签名保持既有 SimulationProvider/DispatchProvider 兼容。RunStore 统一校验所有
+Provider 的 Scenario、状态实体、空间引用、时间片和来源上下文；IntegrationService
+统一执行调度副本隔离、输入输出校验、版本复核和结果记录。GET 无隐式更新。
+
+错误规则保留原 404/409/422/501/502/503；新增框架无关 ProviderError，明确参数错误 400、
+暂不可用 503、未支持 501，未知模块异常为可识别的 500，不向响应暴露堆栈或敏感路径。
+新适配器接入步骤、示例与最低交付见 [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)。
+
+真实 HTTP 演示脚本为 `scripts/demo_backend.ps1`。服务启动后执行：
+
+```powershell
+pwsh -NoProfile -File scripts/demo_backend.ps1 -BaseUrl http://127.0.0.1:8000
+.\.venv\Scripts\python.exe -m pytest -q tests
+```
+
+脚本读取现有 ID、创建专用运行并验证固定调度、封路和 409；不改变原有运行或原始数据，
+只访问本机回环地址并绕过系统代理。失败返回非零，明确输出真实算法尚未覆盖。
+本轮新增 `tests/test_provider_integration.py`，覆盖模块异常、坏 Schema/引用、失败隔离、
+模式来源标签和真实 PowerShell HTTP 演示；前三步既有并发/版本/回归测试继续保留。
+
+2026-11-22 最终完整回归：**70 passed, 1 warning in 23.34s**，无失败、无跳过；
+其中新增 15 项集成测试。PowerShell 演示退出码 0，输出 PASS 及未覆盖真实算法的提示。
+唯一警告为既有 TestClient/httpx 弃用提示。编译与差异检查通过。
