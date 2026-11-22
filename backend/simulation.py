@@ -105,6 +105,10 @@ class RunStore:
     def __init__(self, provider: SimulationProvider):
         self.provider = provider
         self._runs = {}
+        self._base_roads = {}
+        self._manual_closed = {}
+        self._changes = {}
+        self._dispatches = {}
         self._lock = Lock()
 
     def scenario(self, scenario_id):
@@ -127,8 +131,8 @@ class RunStore:
             if (len({record[f"{kind}_id"] for record in records}) != len(records)
                     or any(record["time_min"] != replay.time_min for record in records)):
                 raise CampusDataError("invalid_simulation_data", "Provider snapshot is inconsistent")
-        # This is the only publication point. Future updates must publish a complete
-        # validated snapshot under this lock; GET handlers never update this mapping.
+        # Initial publication and manual updates both publish complete validated
+        # snapshots under this lock; GET handlers never update this mapping.
         with self._lock:
             run_id = "run-" + uuid4().hex
             while run_id in self._runs:
@@ -139,6 +143,10 @@ class RunStore:
                         "scenario": deepcopy(replay.scenario), "provenance": replay.provenance,
                         "roads": roads, "buildings": deepcopy(replay.buildings)}
             self._runs[run_id] = deepcopy(snapshot)
+            self._base_roads[run_id] = deepcopy(roads)
+            self._manual_closed[run_id] = set()
+            self._changes[run_id] = []
+            self._dispatches[run_id] = []
             return deepcopy(snapshot)
 
     def get(self, run_id):
@@ -146,3 +154,65 @@ class RunStore:
             if run_id not in self._runs:
                 raise HTTPException(404, detail={"code": "run_not_found"})
             return deepcopy(self._runs[run_id])
+
+    def _checked(self, run_id, version):
+        if run_id not in self._runs:
+            raise HTTPException(404, detail={"code": "run_not_found"})
+        current = self._runs[run_id]
+        if version != current["state_version"]:
+            raise HTTPException(409, detail={"code": "state_version_conflict",
+                                            "current_state_version": current["state_version"]})
+        return current
+
+    def checked_snapshot(self, run_id, version):
+        with self._lock:
+            return deepcopy(self._checked(run_id, version))
+
+    def set_manual_closure(self, run_id, road_id, version, closed):
+        with self._lock:
+            current = self._checked(run_id, version)
+            if road_id not in {road['road_id'] for road in self._base_roads[run_id]}:
+                raise HTTPException(404, detail={"code": "road_not_found"})
+            manual = self._manual_closed[run_id]
+            changed = (road_id in manual) != closed
+            if changed:
+                next_manual = set(manual)
+                if closed:
+                    next_manual.add(road_id)
+                else:
+                    next_manual.discard(road_id)
+                new_version = version + 1
+                next_snapshot = deepcopy(current)
+                next_snapshot['state_version'] = new_version
+                next_snapshot['roads'] = []
+                for base in self._base_roads[run_id]:
+                    road = {**base, 'state_version': new_version}
+                    if road['road_id'] in next_manual and road['status'] != 'closed':
+                        road.update(status='closed', source='manual', reason='Manual closure')
+                    next_snapshot['roads'].append(road)
+                validate('road_state', next_snapshot['roads'])
+                self._runs[run_id] = next_snapshot
+                self._manual_closed[run_id] = next_manual
+                self._changes[run_id].append({
+                    'road_id': road_id, 'action': 'close' if closed else 'open',
+                    'previous_state_version': version, 'state_version': new_version,
+                    'effective_status': next(r['status'] for r in next_snapshot['roads'] if r['road_id'] == road_id),
+                })
+                current = next_snapshot
+            return {'run_id': run_id, 'state_version': current['state_version'], 'changed': changed,
+                    'manual_closed': road_id in self._manual_closed[run_id],
+                    'road': deepcopy(next(r for r in current['roads'] if r['road_id'] == road_id))}
+
+    def history(self, run_id):
+        with self._lock:
+            if run_id not in self._runs:
+                raise HTTPException(404, detail={'code': 'run_not_found'})
+            return deepcopy({'run_id': run_id, 'changes': self._changes[run_id],
+                             'dispatches': self._dispatches[run_id]})
+
+    def record_dispatch(self, run_id, version, record):
+        # Provider execution may occur outside the lock. Recheck before publication
+        # so a concurrent closure cannot make a stale result appear current.
+        with self._lock:
+            self._checked(run_id, version)
+            self._dispatches[run_id].append(deepcopy(record))

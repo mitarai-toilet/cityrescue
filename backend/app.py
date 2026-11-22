@@ -1,4 +1,5 @@
 from pathlib import Path
+from copy import deepcopy
 
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
@@ -6,6 +7,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from backend.campus import CampusDataError, DEFAULT_DATA, entity_schema, load_campus
 from backend.simulation import FixtureSimulationProvider, RunStore, SimulationProvider
+from backend.dispatching import DispatchProvider, FixtureDispatchProvider, validate_inputs, validate_result
 
 
 class CreateRun(BaseModel):
@@ -13,13 +15,25 @@ class CreateRun(BaseModel):
     scenario_id: str = Field(min_length=1, strict=True)
     params: dict | None = None
 
+
+class VersionRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    state_version: int = Field(ge=0, strict=True)
+
+
+class DispatchRequest(VersionRequest):
+    run_id: str = Field(min_length=1, strict=True)
+    vehicles: list[dict]
+    events: list[dict]
+
 def health() -> dict[str, str]:
     return {"status": "ok", "service": "cityrescue-api", "version": "0.1.0"}
 
 
-def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: SimulationProvider | None = None) -> FastAPI:
+def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: SimulationProvider | None = None,
+               dispatch_provider: DispatchProvider | None = None) -> FastAPI:
     application = FastAPI(title="CITYRESCUE AI API", version="0.1.0",
-                          description="Read-only v0.1 campus API. Default data is synthetic, not a real campus survey.")
+                          description="v0.1 campus, synthetic replay and dispatch integration APIs. Default dispatch is fixture-only.")
     application.add_api_route("/health", health, methods=["GET"])
 
     @application.exception_handler(CampusDataError)
@@ -106,6 +120,33 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
     @application.get("/api/v1/simulation/runs/{run_id}/state", responses=response(state_schema))
     async def run_state(run_id: str):
         return store.get(run_id)
+
+    @application.post('/api/v1/simulation/runs/{run_id}/roads/{road_id}/close')
+    async def close_road(run_id: str, road_id: str, body: VersionRequest):
+        return store.set_manual_closure(run_id, road_id, body.state_version, True)
+
+    @application.post('/api/v1/simulation/runs/{run_id}/roads/{road_id}/open')
+    async def open_road(run_id: str, road_id: str, body: VersionRequest):
+        return store.set_manual_closure(run_id, road_id, body.state_version, False)
+
+    @application.get('/api/v1/simulation/runs/{run_id}/history')
+    async def run_history(run_id: str):
+        return store.history(run_id)
+
+    dispatcher = dispatch_provider if dispatch_provider is not None else FixtureDispatchProvider()
+    dispatch_schema = {'type': 'object', 'required': ['provider', 'result'], 'properties': {
+        'provider': {'type': 'string'}, 'result': entity_schema('dispatch_result')}, 'additionalProperties': False}
+
+    @application.post('/api/v1/dispatch', responses=response(dispatch_schema))
+    async def dispatch(body: DispatchRequest):
+        snapshot = store.checked_snapshot(body.run_id, body.state_version)
+        spatial = load_campus(Path(data_directory))
+        validate_inputs(spatial, body.vehicles, body.events)
+        result = dispatcher.dispatch(deepcopy(snapshot), deepcopy(spatial), deepcopy(body.vehicles), deepcopy(body.events))
+        validate_result(result, snapshot, spatial, body.vehicles, body.events)
+        wrapped = {'provider': dispatcher.name, 'result': result}
+        store.record_dispatch(body.run_id, body.state_version, wrapped)
+        return wrapped
     return application
 
 
