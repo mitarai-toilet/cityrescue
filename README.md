@@ -40,4 +40,6 @@ CITYRESCUE AI 是一个面向单一、经核验校园区域的应急决策原型
 
 ## 契约
 
+校园只读查询、响应格式、错误码和测试说明见 [后端 API](docs/BACKEND_API.md)。
+
 v0.1 唯一正式实体契约位于 `contracts/schemas/`，使用 JSON Schema Draft 2020-12；旧聚合文件 `contracts/schema_v0_1.json` 与 `contracts/sample_v0_1.json` 仅作历史兼容参考。合成校园 fixtures 位于 `data/fixtures/synthetic_campus/`，不能作为真实校园资料使用。
