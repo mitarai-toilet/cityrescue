@@ -1,0 +1,142 @@
+{
+  "scenario": {
+    "scenario_id": "fixed_flood",
+    "campus_id": "C-DEMO",
+    "hazard_type": "flood",
+    "params": {
+      "rainfall_mm_h": 80,
+      "closure_depth_m": 0.3,
+      "caution_depth_m": 0.1,
+      "catchment_factor": {
+        "SIM-R09": 5,
+        "SIM-R07": 2
+      },
+      "building_road": {
+        "SIM-B01": "SIM-R09"
+      }
+    },
+    "seed": 42,
+    "duration_min": 60,
+    "step_min": 10
+  },
+  "roads": [
+    {
+      "road_id": "SIM-R01",
+      "from_node": "SIM-N1",
+      "to_node": "SIM-N2",
+      "length_m": 100,
+      "speed_kmh": 20,
+      "one_way": false,
+      "data_origin": "synthetic",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121,
+            31
+          ],
+          [
+            121.001,
+            31
+          ]
+        ]
+      }
+    },
+    {
+      "road_id": "SIM-R09",
+      "from_node": "SIM-N2",
+      "to_node": "SIM-N4",
+      "length_m": 100,
+      "speed_kmh": 20,
+      "one_way": false,
+      "data_origin": "synthetic",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.001,
+            31
+          ],
+          [
+            121.001,
+            31.001
+          ]
+        ]
+      }
+    },
+    {
+      "road_id": "SIM-R07",
+      "from_node": "SIM-N1",
+      "to_node": "SIM-N3",
+      "length_m": 100,
+      "speed_kmh": 20,
+      "one_way": false,
+      "data_origin": "synthetic",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121,
+            31
+          ],
+          [
+            121,
+            31.001
+          ]
+        ]
+      }
+    },
+    {
+      "road_id": "SIM-R14",
+      "from_node": "SIM-N3",
+      "to_node": "SIM-N4",
+      "length_m": 100,
+      "speed_kmh": 20,
+      "one_way": false,
+      "data_origin": "synthetic",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121,
+            31.001
+          ],
+          [
+            121.001,
+            31.001
+          ]
+        ]
+      }
+    }
+  ],
+  "buildings": [
+    {
+      "building_id": "SIM-B01",
+      "name": "合成教学楼",
+      "data_origin": "synthetic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.0001,
+              31.0001
+            ],
+            [
+              121.0002,
+              31.0001
+            ],
+            [
+              121.0002,
+              31.0002
+            ],
+            [
+              121.0001,
+              31.0001
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

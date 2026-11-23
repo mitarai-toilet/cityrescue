@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              118.81398,
+              31.88974
+            ],
+            [
+              118.81418,
+              31.88974
+            ],
+            [
+              118.81418,
+              31.88994
+            ],
+            [
+              118.81398,
+              31.88994
+            ],
+            [
+              118.81398,
+              31.88974
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "JLH-B300030310",
+        "name": "李文正图书馆",
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              118.8121,
+              31.8912
+            ],
+            [
+              118.8123,
+              31.8912
+            ],
+            [
+              118.8123,
+              31.8914
+            ],
+            [
+              118.8121,
+              31.8914
+            ],
+            [
+              118.8121,
+              31.8912
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "JLH-B300030319",
+        "name": "经管楼",
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              118.81119,
+              31.89175
+            ],
+            [
+              118.81139,
+              31.89175
+            ],
+            [
+              118.81139,
+              31.89195
+            ],
+            [
+              118.81119,
+              31.89195
+            ],
+            [
+              118.81119,
+              31.89175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "building_id": "JLH-B300030302",
+        "name": "文科C楼",
+        "data_origin": "estimated"
+      }
+    }
+  ]
+}

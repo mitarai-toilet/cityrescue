@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "李文正图书馆",
+        "osm_way": 300030310,
+        "source": "https://mapcarta.com/W300030310",
+        "attribution": "© OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81408,
+          31.88984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "经管楼",
+        "osm_way": 300030319,
+        "source": "https://mapcarta.com/W300030319",
+        "attribution": "© OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8122,
+          31.8913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文科C楼",
+        "osm_way": 300030302,
+        "source": "https://mapcarta.com/W300030302",
+        "attribution": "© OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81129,
+          31.89185
+        ]
+      }
+    }
+  ]
+}

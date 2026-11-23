@@ -1,0 +1,62 @@
+[
+  {
+    "node_id": "JLH-N1",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        118.8109,
+        31.8922
+      ]
+    }
+  },
+  {
+    "node_id": "JLH-N2",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        118.8126,
+        31.8922
+      ]
+    }
+  },
+  {
+    "node_id": "JLH-N3",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        118.8146,
+        31.8922
+      ]
+    }
+  },
+  {
+    "node_id": "JLH-N4",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        118.8109,
+        31.88945
+      ]
+    }
+  },
+  {
+    "node_id": "JLH-N5",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        118.8126,
+        31.88945
+      ]
+    }
+  },
+  {
+    "node_id": "JLH-N6",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        118.8146,
+        31.88945
+      ]
+    }
+  }
+]

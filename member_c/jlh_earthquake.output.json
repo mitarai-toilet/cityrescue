@@ -1,0 +1,674 @@
+[
+  {
+    "time_min": 0,
+    "state_version": 0,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 0,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 0,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 0
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 0,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 0,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 0,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 10,
+    "state_version": 1,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 10,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 10,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 1
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 10,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 10,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 10,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 20,
+    "state_version": 2,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 20,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 20,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 2
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 20,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 20,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 20,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 30,
+    "state_version": 3,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 30,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 30,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 3
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 30,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 30,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 30,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 40,
+    "state_version": 4,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 40,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 40,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 4
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 40,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 40,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 40,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 50,
+    "state_version": 5,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 50,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 50,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 5
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 50,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 50,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 50,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 60,
+    "state_version": 6,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 60,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 60,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 6
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 60,
+        "risk_level": "unknown",
+        "reason": "未配置建筑影响"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 60,
+        "risk_level": "medium",
+        "reason": "固定影响区风险分级"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 60,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  }
+]

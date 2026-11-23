@@ -1,0 +1,18 @@
+{
+  "scenario_id": "JLH-earthquake",
+  "campus_id": "SEU-JLH",
+  "hazard_type": "earthquake",
+  "seed": 42,
+  "step_min": 10,
+  "duration_min": 60,
+  "params": {
+    "road_status": {
+      "JLH-R2": "closed",
+      "JLH-R6": "caution"
+    },
+    "building_risk": {
+      "JLH-B300030310": "medium",
+      "JLH-B300030319": "high"
+    }
+  }
+}

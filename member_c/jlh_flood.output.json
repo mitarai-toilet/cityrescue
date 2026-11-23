@@ -1,0 +1,674 @@
+[
+  {
+    "time_min": 0,
+    "state_version": 0,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 0,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 0,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 0,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 10,
+    "state_version": 1,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.065,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.065 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.025,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.025 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 10,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 10,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 10,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 20,
+    "state_version": 2,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 20,
+        "status": "caution",
+        "depth_m": 0.13,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.13 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.05,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.05 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 20,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 20,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 20,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 30,
+    "state_version": 3,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 30,
+        "status": "caution",
+        "depth_m": 0.195,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.195 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.075,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.075 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 30,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 30,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 30,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 40,
+    "state_version": 4,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 40,
+        "status": "caution",
+        "depth_m": 0.26,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.26 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 40,
+        "status": "caution",
+        "depth_m": 0.1,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.1 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 40,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 40,
+        "risk_level": "medium",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 40,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 50,
+    "state_version": 5,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 50,
+        "status": "closed",
+        "depth_m": 0.325,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.325 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 50,
+        "status": "caution",
+        "depth_m": 0.125,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.125 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 50,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 50,
+        "risk_level": "medium",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 50,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 60,
+    "state_version": 6,
+    "road_states": [
+      {
+        "road_id": "JLH-R1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R2",
+        "time_min": 60,
+        "status": "closed",
+        "depth_m": 0.39,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.39 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R6",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "JLH-R7",
+        "time_min": 60,
+        "status": "caution",
+        "depth_m": 0.15,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.15 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "JLH-B300030302",
+        "time_min": 60,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R1 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030310",
+        "time_min": 60,
+        "risk_level": "medium",
+        "reason": "邻接道路 JLH-R7 积水代理"
+      },
+      {
+        "building_id": "JLH-B300030319",
+        "time_min": 60,
+        "risk_level": "low",
+        "reason": "邻接道路 JLH-R6 积水代理"
+      }
+    ]
+  }
+]

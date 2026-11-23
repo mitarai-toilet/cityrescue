@@ -1,0 +1,274 @@
+{
+  "scenario": {
+    "scenario_id": "JLH-earthquake",
+    "campus_id": "SEU-JLH",
+    "hazard_type": "earthquake",
+    "seed": 42,
+    "step_min": 10,
+    "duration_min": 60,
+    "params": {
+      "road_status": {
+        "JLH-R2": "closed",
+        "JLH-R6": "caution"
+      },
+      "building_risk": {
+        "JLH-B300030310": "medium",
+        "JLH-B300030319": "high"
+      }
+    }
+  },
+  "roads": [
+    {
+      "road_id": "JLH-R1",
+      "from_node": "JLH-N1",
+      "to_node": "JLH-N2",
+      "length_m": 160.5,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8109,
+            31.8922
+          ],
+          [
+            118.8126,
+            31.8922
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    },
+    {
+      "road_id": "JLH-R2",
+      "from_node": "JLH-N2",
+      "to_node": "JLH-N3",
+      "length_m": 188.8,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8126,
+            31.8922
+          ],
+          [
+            118.8146,
+            31.8922
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    },
+    {
+      "road_id": "JLH-R3",
+      "from_node": "JLH-N4",
+      "to_node": "JLH-N5",
+      "length_m": 160.5,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8109,
+            31.88945
+          ],
+          [
+            118.8126,
+            31.88945
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    },
+    {
+      "road_id": "JLH-R4",
+      "from_node": "JLH-N5",
+      "to_node": "JLH-N6",
+      "length_m": 188.8,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8126,
+            31.88945
+          ],
+          [
+            118.8146,
+            31.88945
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    },
+    {
+      "road_id": "JLH-R5",
+      "from_node": "JLH-N1",
+      "to_node": "JLH-N4",
+      "length_m": 305.8,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8109,
+            31.8922
+          ],
+          [
+            118.8109,
+            31.88945
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    },
+    {
+      "road_id": "JLH-R6",
+      "from_node": "JLH-N2",
+      "to_node": "JLH-N5",
+      "length_m": 305.8,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8126,
+            31.8922
+          ],
+          [
+            118.8126,
+            31.88945
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    },
+    {
+      "road_id": "JLH-R7",
+      "from_node": "JLH-N3",
+      "to_node": "JLH-N6",
+      "length_m": 305.8,
+      "speed_kmh": 15,
+      "one_way": false,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8146,
+            31.8922
+          ],
+          [
+            118.8146,
+            31.88945
+          ]
+        ]
+      },
+      "data_origin": "synthetic"
+    }
+  ],
+  "buildings": [
+    {
+      "building_id": "JLH-B300030310",
+      "name": "李文正图书馆",
+      "data_origin": "estimated",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              118.81398,
+              31.88974
+            ],
+            [
+              118.81418,
+              31.88974
+            ],
+            [
+              118.81418,
+              31.88994
+            ],
+            [
+              118.81398,
+              31.88994
+            ],
+            [
+              118.81398,
+              31.88974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "building_id": "JLH-B300030319",
+      "name": "经管楼",
+      "data_origin": "estimated",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              118.8121,
+              31.8912
+            ],
+            [
+              118.8123,
+              31.8912
+            ],
+            [
+              118.8123,
+              31.8914
+            ],
+            [
+              118.8121,
+              31.8914
+            ],
+            [
+              118.8121,
+              31.8912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "building_id": "JLH-B300030302",
+      "name": "文科C楼",
+      "data_origin": "estimated",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              118.81119,
+              31.89175
+            ],
+            [
+              118.81139,
+              31.89175
+            ],
+            [
+              118.81139,
+              31.89195
+            ],
+            [
+              118.81119,
+              31.89195
+            ],
+            [
+              118.81119,
+              31.89175
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

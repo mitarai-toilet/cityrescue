@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8109,
+            31.8922
+          ],
+          [
+            118.8126,
+            31.8922
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R1",
+        "from_node": "JLH-N1",
+        "to_node": "JLH-N2",
+        "length_m": 160.5,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8126,
+            31.8922
+          ],
+          [
+            118.8146,
+            31.8922
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R2",
+        "from_node": "JLH-N2",
+        "to_node": "JLH-N3",
+        "length_m": 188.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8109,
+            31.88945
+          ],
+          [
+            118.8126,
+            31.88945
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R3",
+        "from_node": "JLH-N4",
+        "to_node": "JLH-N5",
+        "length_m": 160.5,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8126,
+            31.88945
+          ],
+          [
+            118.8146,
+            31.88945
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R4",
+        "from_node": "JLH-N5",
+        "to_node": "JLH-N6",
+        "length_m": 188.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8109,
+            31.8922
+          ],
+          [
+            118.8109,
+            31.88945
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R5",
+        "from_node": "JLH-N1",
+        "to_node": "JLH-N4",
+        "length_m": 305.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8126,
+            31.8922
+          ],
+          [
+            118.8126,
+            31.88945
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R6",
+        "from_node": "JLH-N2",
+        "to_node": "JLH-N5",
+        "length_m": 305.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8146,
+            31.8922
+          ],
+          [
+            118.8146,
+            31.88945
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "JLH-R7",
+        "from_node": "JLH-N3",
+        "to_node": "JLH-N6",
+        "length_m": 305.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "synthetic"
+      }
+    }
+  ]
+}

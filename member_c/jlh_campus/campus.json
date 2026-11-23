@@ -1,0 +1,8 @@
+{
+  "campus_id": "SEU-JLH",
+  "name": "东南大学九龙湖校区教学推演片区",
+  "coordinate_system": "WGS84",
+  "data_origin": "estimated",
+  "data_source": "OSM 地标代表点、估算建筑框及合成道路；见校园接入.md",
+  "verified": false
+}

@@ -1,0 +1,14 @@
+test_dispatch_consumption (test_hazard.Acceptance.test_dispatch_consumption) ... ok
+test_invalid_parameters (test_hazard.Acceptance.test_invalid_parameters) ... ok
+test_partial_step (test_hazard.Acceptance.test_partial_step) ... ok
+test_quake_and_invalid_zone (test_hazard.Acceptance.test_quake_and_invalid_zone) ... ok
+test_snapshots_and_reproducibility (test_hazard.Acceptance.test_snapshots_and_reproducibility) ... ok
+test_threshold_equality (test_hazard.Acceptance.test_threshold_equality) ... ok
+test_timeline_and_contract (test_hazard.Acceptance.test_timeline_and_contract) ... ok
+test_zero_and_heavy_rain (test_hazard.Acceptance.test_zero_and_heavy_rain) ... ok
+test_campus_snapshots_and_detour (test_jlh.CampusIntegration.test_campus_snapshots_and_detour) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.007s
+
+OK

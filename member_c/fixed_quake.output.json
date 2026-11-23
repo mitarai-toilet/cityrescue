@@ -1,0 +1,110 @@
+[
+  {
+    "time_min": 0,
+    "state_version": 0,
+    "road_states": [
+      {
+        "road_id": "SIM-R01",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SIM-R07",
+        "time_min": 0,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SIM-R09",
+        "time_min": 0,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SIM-R14",
+        "time_min": 0,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 0
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SIM-B01",
+        "time_min": 0,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  },
+  {
+    "time_min": 10,
+    "state_version": 1,
+    "road_states": [
+      {
+        "road_id": "SIM-R01",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "位于配置影响区外",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SIM-R07",
+        "time_min": 10,
+        "status": "caution",
+        "depth_m": null,
+        "risk_penalty_min": 3,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SIM-R09",
+        "time_min": 10,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SIM-R14",
+        "time_min": 10,
+        "status": "closed",
+        "depth_m": null,
+        "risk_penalty_min": 0,
+        "reason": "固定地震影响区配置",
+        "source": "hazard",
+        "state_version": 1
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SIM-B01",
+        "time_min": 10,
+        "risk_level": "high",
+        "reason": "固定影响区风险分级"
+      }
+    ]
+  }
+]

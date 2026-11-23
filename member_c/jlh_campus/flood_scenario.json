@@ -1,0 +1,20 @@
+{
+  "scenario_id": "JLH-flood",
+  "campus_id": "SEU-JLH",
+  "hazard_type": "flood",
+  "seed": 42,
+  "step_min": 10,
+  "duration_min": 60,
+  "params": {
+    "rainfall_mm_h": 80,
+    "catchment_factor": {
+      "JLH-R2": 5,
+      "JLH-R7": 2
+    },
+    "building_road": {
+      "JLH-B300030310": "JLH-R7",
+      "JLH-B300030319": "JLH-R6",
+      "JLH-B300030302": "JLH-R1"
+    }
+  }
+}
