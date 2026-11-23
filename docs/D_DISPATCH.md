@@ -6,6 +6,7 @@
 
 ```powershell
 .\.venv\Scripts\python.exe -m uvicorn backend.dispatch_app:app --host 127.0.0.1 --port 8000
+.\.venv\Scripts\python.exe -m scripts.demo_dispatch
 .\.venv\Scripts\python.exe -m pytest -q tests
 git diff --check
 ```
@@ -32,12 +33,20 @@ app = create_app(dispatch_provider=NetworkXDispatchProvider())
 
 `tests/test_networkx_dispatch.py` 覆盖正常、封路绕行、完全不可达、无可用车、两车三任务、能力映射、单行、平行边、同节点、风险与 ETA 分离、非法引用与快照、双灾种 API 和计算期间封路冲突。实体和固定空间数据沿用仓库文件。
 
-当前数据为 9 节点、16 道路的合成校园。洪涝与地震由 C 的现有 fixture Provider 提供状态，D 运行实际路径算法。现场真实校园核验、C 的灾害模型计算和 B 的展示录屏待各模块联调。出发后的车辆需提供已确认的节点位置，路段内部位置与剩余路段行驶约束需后续接入。
+当前数据为 9 节点、16 道路的合成校园。洪涝与地震由 C 的现有 fixture Provider 提供状态，D 运行实际路径算法。`scripts.demo_dispatch` 使用两车三任务，输出两个灾种在封路前、封路后和无可用车时的完整回包，可核对路段、ETA、未分配事件和版本。真实校园核验、灾害模型和前端演示需各模块联调。
+
+## 执行中任务的重算
+
+E 可调用 `provider.replan_active(snapshot, spatial, vehicles, events, previous_result)`。传入同一运行的新快照、已保存的上一份 DispatchResult，以及按实际位置更新了 `node_id` 的车辆。待重算事件应为 `assigned` 或 `in_progress`，并能通过上一份结果找到其车辆。
+
+计算使用最新确认节点和当前生效的道路状态。保留事件与车辆的绑定，车辆即使处于占用中也继续执行自己的任务。无路时保留该绑定，输出空路线、空 ETA 和明确原因。道路恢复后，新版本可沿用该绑定再次重算。输入的事件列表应是调用方要重算的范围，其他状态的事件计入 `unassigned_events`。
+
+现有 HTTP 接口可按新快照重新调度待处理事件。执行中重算的调用和结果保存由 E 接入，路段内定位需先由上游确认可作为重算起点的节点。
 
 本分支基于 `feature/E-api` 的 Provider 集成接口。建议队长先合并 E 接口，再合并 D 分支。
 
-
-
 ## 本次执行记录
 
-2026-11-23，Python 3.12，仓库 requirements.txt 安装的依赖，NetworkX 3.7。完整 pytest tests 为 82 passed, 1 warning in 69.38s。警告来自既有 TestClient/httpx 弃用提示。
+使用 Python 3.12 和仓库 `requirements.txt` 中的依赖，运行 `python -m pytest -q tests -p no:cacheprovider`，84 项通过。1 条警告来自既有 TestClient/httpx 弃用提示。
+
+两个灾种的固定样例均在封闭 `SIM-R01` 后从版本 0 更新至版本 1。首个任务从 `SIM-R01 → SIM-R02` 改走 `SIM-R13 → SIM-R15`，ETA 从 0.90 分钟变为 1.32 分钟。封路后两组结果均未使用禁行道路。两辆车均不可用时，三个事件均保留在 `unassigned_events`。

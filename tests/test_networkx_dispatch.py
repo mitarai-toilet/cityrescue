@@ -174,3 +174,62 @@ def test_real_provider_result_rejected_after_concurrent_closure():
         assert not thread.is_alive()
         assert responses[0].status_code == 409
         assert app.state.simulation_runs.history(run)['dispatches'] == []
+
+
+def test_active_replanning_uses_original_vehicle_from_confirmed_node(context):
+    snapshot, spatial, vehicles, events = context
+    provider = NetworkXDispatchProvider()
+    event = events[0]
+    previous = provider.dispatch(snapshot, spatial, vehicles, [event])
+    assert previous['assignments'][0]['vehicle_id'] == 'SIM-V1'
+    event['status'] = 'in_progress'
+    vehicles[0].update(node_id='SIM-N2', available_at_min=snapshot['time_min'] + 10)
+    # Leave a free vehicle at the event itself. The active task still belongs to V1.
+    vehicles[1]['node_id'] = event['node_id']
+    snapshot['state_version'] += 1
+    for state in snapshot['roads']:
+        state['state_version'] = snapshot['state_version']
+        if state['road_id'] == 'SIM-R02':
+            state.update(status='closed', source='manual')
+    result = provider.replan_active(snapshot, spatial, vehicles, [event], previous)
+    validate_result(result, snapshot, spatial, vehicles, [event])
+    assignment, = result['assignments']
+    assert assignment['vehicle_id'] == 'SIM-V1'
+    assert assignment['road_ids'] and 'SIM-R02' not in assignment['road_ids']
+    assert assignment['eta_min'] > 0
+
+    outgoing = {road['road_id'] for road in spatial['roads']
+                if road['from_node'] == 'SIM-N2' or road['to_node'] == 'SIM-N2'}
+    snapshot['state_version'] += 1
+    for state in snapshot['roads']:
+        state['state_version'] = snapshot['state_version']
+        if state['road_id'] in outgoing:
+            state['status'] = 'closed'
+    blocked = provider.replan_active(snapshot, spatial, vehicles, [event], result)
+    validate_result(blocked, snapshot, spatial, vehicles, [event])
+    assert blocked['outcome'] == 'unreachable'
+    assignment, = blocked['assignments']
+    assert assignment['vehicle_id'] == 'SIM-V1'
+    assert assignment['road_ids'] == [] and assignment['eta_min'] is None
+    assert assignment['reason']
+    restored = deepcopy(snapshot)
+    restored['state_version'] += 1
+    for state in restored['roads']:
+        state.update(status='open', state_version=restored['state_version'])
+    assert provider.replan_active(restored, spatial, vehicles, [event], blocked)['outcome'] == 'complete'
+
+
+def test_active_replanning_rejects_invalid_version_and_missing_original_vehicle(context):
+    snapshot, spatial, vehicles, events = context
+    provider = NetworkXDispatchProvider()
+    previous = provider.dispatch(snapshot, spatial, vehicles, events)
+    for run_id, version in [(snapshot['run_id'], snapshot['state_version']), ('another-run', 1)]:
+        with pytest.raises(ProviderError, match='invalid_replan_version'):
+            provider.replan_active(dict(snapshot, run_id=run_id, state_version=version),
+                                   spatial, vehicles, events, previous)
+    snapshot['state_version'] += 1
+    for state in snapshot['roads']:
+        state['state_version'] = snapshot['state_version']
+    events[0]['status'] = 'assigned'
+    with pytest.raises(ProviderError, match='missing_replan_vehicle'):
+        provider.replan_active(snapshot, spatial, vehicles[1:], events, previous)
