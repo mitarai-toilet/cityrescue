@@ -240,6 +240,18 @@ class RunStore:
             return deepcopy({'run_id': run_id, 'changes': self._changes[run_id],
                              'dispatches': self._dispatches[run_id]})
 
+    def dispatch_at(self, run_id, version, index):
+        """Read one prior assignment under the same version check as the snapshot."""
+        with self._lock:
+            self._checked(run_id, version)
+            records = self._dispatches[run_id]
+            if not 0 <= index < len(records):
+                raise HTTPException(404, detail={'code': 'dispatch_history_not_found'})
+            record = records[index]
+            if record['result']['state_version'] >= version:
+                raise HTTPException(409, detail={'code': 'dispatch_history_version_conflict'})
+            return deepcopy(record)
+
     def record_dispatch(self, run_id, version, record):
         # Provider execution may occur outside the lock. Recheck before publication
         # so a concurrent closure cannot make a stale result appear current.

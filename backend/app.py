@@ -27,6 +27,11 @@ class DispatchRequest(VersionRequest):
     vehicles: list[dict]
     events: list[dict]
 
+
+class ReplanRequest(DispatchRequest):
+    previous_dispatch_index: int = Field(ge=0, strict=True)
+
+
 def health() -> dict[str, str]:
     return {"status": "ok", "service": "cityrescue-api", "version": "0.1.0"}
 
@@ -149,6 +154,16 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
     @application.post('/api/v1/dispatch', responses=response(dispatch_schema))
     async def dispatch(body: DispatchRequest):
         return integration.dispatch(body.run_id, body.state_version, body.vehicles, body.events)
+
+    @application.post('/api/v1/dispatch/replan', responses={
+        **response(dispatch_schema),
+        409: {'description': 'State version or historical dispatch conflict'},
+        501: {'description': 'The configured provider does not support active replanning'},
+    })
+    async def replan(body: ReplanRequest):
+        return integration.dispatch(body.run_id, body.state_version, body.vehicles, body.events,
+                                    previous_dispatch_index=body.previous_dispatch_index)
+
     return application
 
 

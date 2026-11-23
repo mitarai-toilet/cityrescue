@@ -71,7 +71,7 @@ spatial 包含 Campus、Node、Road、Building；车辆/任务分别符合 vehic
 后端对副本修改和失败结果提供隔离，无法回滚 Provider 自己产生的外部副作用。
 
 默认 FixtureDispatchProvider 严格匹配合成洪涝及单车单任务的两个案例，其他输入 501。
-案例位于 `backend/fixtures/dispatch_cases.json`；未实现 D 的算法或真实动态重规划。
+案例位于 `backend/fixtures/dispatch_cases.json`。D 的算法 Provider、独立启动入口和执行中重算接口见 [D 岗调度模块交付](D_DISPATCH.md)。
 
 ## 异常和失败隔离
 

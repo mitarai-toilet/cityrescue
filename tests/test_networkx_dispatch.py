@@ -233,3 +233,42 @@ def test_active_replanning_rejects_invalid_version_and_missing_original_vehicle(
     events[0]['status'] = 'assigned'
     with pytest.raises(ProviderError, match='missing_replan_vehicle'):
         provider.replan_active(snapshot, spatial, vehicles[1:], events, previous)
+
+
+def test_replan_endpoint_uses_saved_assignment_and_rejects_invalid_history():
+    app = create_app(dispatch_provider=NetworkXDispatchProvider())
+    with TestClient(app) as client:
+        run = client.post('/api/v1/simulation/runs', json={'scenario_id': 'SIM-FLOOD-01'}).json()
+        run_id = run['run_id']
+        vehicles = read_json(DEFAULT_DATA / 'vehicles.json')
+        events = read_json(DEFAULT_DATA / 'events.json')[:1]
+        body = {'run_id': run_id, 'state_version': 0, 'vehicles': vehicles, 'events': events}
+        initial = client.post('/api/v1/dispatch', json=body)
+        assert initial.status_code == 200, initial.text
+        assert initial.json()['result']['assignments'][0]['vehicle_id'] == 'SIM-V1'
+        events[0]['status'] = 'in_progress'
+        vehicles[0].update(node_id='SIM-N2', available_at_min=run['time_min'] + 10)
+        vehicles[1]['node_id'] = events[0]['node_id']
+        body['previous_dispatch_index'] = 0
+        endpoint = '/api/v1/dispatch/replan'
+        assert client.post(endpoint, json=body).json()['detail']['code'] == 'dispatch_history_version_conflict'
+
+        root = f'/api/v1/simulation/runs/{run_id}'
+        assert client.post(root + '/roads/SIM-R02/close', json={'state_version': 0}).status_code == 200
+        assert client.post(endpoint, json=body).json()['detail']['code'] == 'state_version_conflict'
+        body['state_version'] = 1
+        invalid = client.post(endpoint, json=dict(body, previous_dispatch_index=20))
+        assert invalid.status_code == 404
+        assert invalid.json()['detail']['code'] == 'dispatch_history_not_found'
+        events[0]['status'] = 'completed'
+        assert client.post(endpoint, json=body).status_code == 422
+        events[0]['status'] = 'in_progress'
+        result = client.post(endpoint, json=body)
+        assert result.status_code == 200, result.text
+        payload = result.json()['result']
+        assignment, = payload['assignments']
+        assert payload['state_version'] == 1
+        assert assignment['vehicle_id'] == 'SIM-V1'
+        assert 'SIM-R02' not in assignment['road_ids'] and assignment['eta_min'] > 0
+        history = client.get(root + '/history').json()['dispatches']
+        assert history == [initial.json(), result.json()]

@@ -37,16 +37,18 @@ app = create_app(dispatch_provider=NetworkXDispatchProvider())
 
 ## 执行中任务的重算
 
-E 可调用 `provider.replan_active(snapshot, spatial, vehicles, events, previous_result)`。传入同一运行的新快照、已保存的上一份 DispatchResult，以及按实际位置更新了 `node_id` 的车辆。待重算事件应为 `assigned` 或 `in_progress`，并能通过上一份结果找到其车辆。
+用 `backend.dispatch_app:app` 启动后，调用 `POST /api/v1/dispatch/replan`。请求沿用 `run_id`、`state_version`、`vehicles` 和 `events`，并增加 `previous_dispatch_index`。该值是上一份调度记录在本次运行 `/history` 响应的 `dispatches` 数组中的索引，从 0 开始。后端从该记录读取事件与车辆绑定。请求提供车辆最新确认的 `node_id`，事件状态须为 `assigned` 或 `in_progress`。
 
 计算使用最新确认节点和当前生效的道路状态。保留事件与车辆的绑定，车辆即使处于占用中也继续执行自己的任务。无路时保留该绑定，输出空路线、空 ETA 和明确原因。道路恢复后，新版本可沿用该绑定再次重算。输入的事件列表应是调用方要重算的范围，其他状态的事件计入 `unassigned_events`。
 
-现有 HTTP 接口可按新快照重新调度待处理事件。执行中重算的调用和结果保存由 E 接入，路段内定位需先由上游确认可作为重算起点的节点。
+成功回包使用与首次调度相同的包装，保存后可在 `/history` 查到。未找到历史记录返回 404。快照过期、上一份结果版本并非更早或 Provider 不一致返回 409。事件状态不适合重算返回 422。未接入重算的 Provider 返回 501。车辆实时位置由上游确认，当前入口读取已确认路网节点。原 `POST /api/v1/dispatch` 继续负责待处理事件。
 
 本分支基于 `feature/E-api` 的 Provider 集成接口。建议队长先合并 E 接口，再合并 D 分支。
 
 ## 本次执行记录
 
-使用 Python 3.12 和仓库 `requirements.txt` 中的依赖，运行 `python -m pytest -q tests -p no:cacheprovider`，84 项通过。1 条警告来自既有 TestClient/httpx 弃用提示。
+使用 Python 3.12 和仓库 `requirements.txt` 中的依赖，运行 `python -m pytest -q tests -p no:cacheprovider`，85 项通过。1 条警告来自既有 TestClient/httpx 弃用提示。
 
 两个灾种的固定样例均在封闭 `SIM-R01` 后从版本 0 更新至版本 1。首个任务从 `SIM-R01 → SIM-R02` 改走 `SIM-R13 → SIM-R15`，ETA 从 0.90 分钟变为 1.32 分钟。封路后两组结果均未使用禁行道路。两辆车均不可用时，三个事件均保留在 `unassigned_events`。
+
+演示继续封闭 `SIM-R02`，从版本 2 的 `SIM-N2` 重算执行中的 `SIM-E1`。固定灾害状态已关闭该节点的第三条出路，两种场景都返回原车辆 `SIM-V1`、空路线、空 ETA 和不可达原因。API 测试单独覆盖了仍有可走道路时的重算、历史记录查找及旧版本拦截。
