@@ -38,8 +38,9 @@ def health() -> dict[str, str]:
 
 def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: SimulationProvider | None = None,
                dispatch_provider: DispatchProvider | None = None) -> FastAPI:
+    description = "v0.1 campus, simulation and dispatch APIs. See campus metadata for the spatial data source."
     application = FastAPI(title="CITYRESCUE AI API", version="0.1.0",
-                          description="v0.1 campus, synthetic replay and dispatch integration APIs. Default dispatch is fixture-only.")
+                          description=description)
     application.add_api_route("/health", health, methods=["GET"])
 
     @application.exception_handler(CampusDataError)
@@ -66,7 +67,7 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
 
         application.add_api_route(
             path, query, methods=["GET"], name=f"get_{key}", response_model=None,
-            description="Synthetic campus fixture. Canonical entities; graph is an API wrapper. Data errors return 503.",
+            description="Canonical campus entities. See campus metadata for the spatial data source.",
             responses={200: {"content": {"application/json": {"schema": schema}}},
                        503: {"description": "Missing, malformed or inconsistent source dataset"}},
         )

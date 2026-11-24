@@ -4,6 +4,8 @@
 
 ## 启动与接入
 
+四牌楼校区的公开地图路网可通过 `backend.sipailou_app:app` 启动。其与合成校园的回归入口独立，使用相同的 DispatchProvider 和接口。数据范围、许可和南门至大礼堂南侧的复跑步骤见 [四牌楼校区路线演示](../data/fixtures/seu_sipailou_osm/README.md)。
+
 ```powershell
 .\.venv\Scripts\python.exe -m uvicorn backend.dispatch_app:app --host 127.0.0.1 --port 8000
 .\.venv\Scripts\python.exe -m scripts.demo_dispatch

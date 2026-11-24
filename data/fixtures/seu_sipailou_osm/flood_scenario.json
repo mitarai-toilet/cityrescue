@@ -1,0 +1,9 @@
+{
+  "scenario_id": "SPL-FLOOD-DEMO",
+  "campus_id": "SEU-SIPAILOU-OSM",
+  "hazard_type": "flood",
+  "duration_min": 30,
+  "step_min": 10,
+  "seed": 0,
+  "params": {}
+}

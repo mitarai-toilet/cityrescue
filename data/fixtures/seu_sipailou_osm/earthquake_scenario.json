@@ -1,0 +1,13 @@
+{
+  "scenario_id": "SPL-EARTHQUAKE-DEMO",
+  "campus_id": "SEU-SIPAILOU-OSM",
+  "hazard_type": "earthquake",
+  "duration_min": 30,
+  "step_min": 10,
+  "seed": 0,
+  "params": {
+    "affected_road_ids": [
+      "SPL-R237022770-2449059357-2450052111"
+    ]
+  }
+}
