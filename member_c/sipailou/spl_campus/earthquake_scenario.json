@@ -1,0 +1,17 @@
+{
+  "scenario_id": "SPL-earthquake",
+  "campus_id": "SEU-SPL",
+  "hazard_type": "earthquake",
+  "seed": 42,
+  "duration_min": 60,
+  "step_min": 10,
+  "params": {
+    "road_status": {
+      "SPL-R237022770-1": "closed"
+    },
+    "building_risk": {
+      "SPL-B236944775": "medium",
+      "SPL-B236945093": "unknown"
+    }
+  }
+}

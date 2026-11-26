@@ -1,0 +1,17 @@
+{
+  "from_node": "SPL-N2449713763",
+  "to_node": "SPL-N2449059361",
+  "time_min": 50,
+  "closed_road_id": "SPL-R237022770-1",
+  "road_name": "中央大道",
+  "alternative_road_ids": [
+    "SPL-R237022771-6",
+    "SPL-R237022771-5",
+    "SPL-R237022772-3",
+    "SPL-R237022772-2",
+    "SPL-R237022772-1",
+    "SPL-R236946074-4",
+    "SPL-R236946073-2",
+    "SPL-R236946073-1"
+  ]
+}

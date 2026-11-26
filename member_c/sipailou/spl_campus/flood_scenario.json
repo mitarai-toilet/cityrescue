@@ -1,0 +1,19 @@
+{
+  "scenario_id": "SPL-flood",
+  "campus_id": "SEU-SPL",
+  "hazard_type": "flood",
+  "seed": 42,
+  "duration_min": 60,
+  "step_min": 10,
+  "params": {
+    "rainfall_mm_h": 80,
+    "catchment_factor": {
+      "SPL-R237022770-1": 5
+    },
+    "closure_depth_m": 0.3,
+    "building_road": {
+      "SPL-B236944775": "SPL-R237042941-6",
+      "SPL-B236945093": "SPL-R237057065-4"
+    }
+  }
+}

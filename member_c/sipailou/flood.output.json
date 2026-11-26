@@ -1,0 +1,6302 @@
+[
+  {
+    "time_min": 0,
+    "state_version": 0,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 0,
+        "status": "open",
+        "depth_m": 0.0,
+        "risk_penalty_min": 0,
+        "reason": "积水 0 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 0
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 0,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 0,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 10,
+    "state_version": 1,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.065,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.065 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 10,
+        "status": "open",
+        "depth_m": 0.011667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.011667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 1
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 10,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 10,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 20,
+    "state_version": 2,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 20,
+        "status": "caution",
+        "depth_m": 0.13,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.13 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 20,
+        "status": "open",
+        "depth_m": 0.023333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.023333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 2
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 20,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 20,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 30,
+    "state_version": 3,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 30,
+        "status": "caution",
+        "depth_m": 0.195,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.195 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 30,
+        "status": "open",
+        "depth_m": 0.035,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.035 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 3
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 30,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 30,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 40,
+    "state_version": 4,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 40,
+        "status": "caution",
+        "depth_m": 0.26,
+        "risk_penalty_min": 3,
+        "reason": "积水 0.26 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 40,
+        "status": "open",
+        "depth_m": 0.046667,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.046667 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 4
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 40,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 40,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 50,
+    "state_version": 5,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 50,
+        "status": "closed",
+        "depth_m": 0.325,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.325 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 50,
+        "status": "open",
+        "depth_m": 0.058333,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.058333 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 5
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 50,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 50,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  },
+  {
+    "time_min": 60,
+    "state_version": 6,
+    "road_states": [
+      {
+        "road_id": "SPL-R106972917-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R106972917-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R106972917-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R106972917-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236879445-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236879445-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236879445-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236879445-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236879446-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236879446-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946069-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946069-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946069-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946069-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946071-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946073-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946073-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946074-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946074-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946074-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R236946074-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-1",
+        "time_min": 60,
+        "status": "closed",
+        "depth_m": 0.39,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.39 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-6",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022770-7",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-10",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-11",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-6",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-7",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-8",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022771-9",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022772-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022772-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022772-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022773-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022773-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022773-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237022773-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042930-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042930-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042930-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042930-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042930-5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042931-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-10",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-11",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-6",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-7",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-8",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042932-9",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042935-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042935-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042937-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042939-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042939-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-6",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042941-7",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237042943-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057057-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057058-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057059-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057060-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057061-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057062-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057063-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057065-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057065-2",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057065-3",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057065-4",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237057065-5",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237063305-1",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      },
+      {
+        "road_id": "SPL-R237063305-6",
+        "time_min": 60,
+        "status": "open",
+        "depth_m": 0.07,
+        "risk_penalty_min": 0,
+        "reason": "积水 0.07 m，警戒/禁行阈值 0.1/0.3 m",
+        "source": "hazard",
+        "state_version": 6
+      }
+    ],
+    "building_states": [
+      {
+        "building_id": "SPL-B236944775",
+        "time_min": 60,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237042941-6 积水代理"
+      },
+      {
+        "building_id": "SPL-B236945093",
+        "time_min": 60,
+        "risk_level": "low",
+        "reason": "邻接道路 SPL-R237057065-4 积水代理"
+      }
+    ]
+  }
+]

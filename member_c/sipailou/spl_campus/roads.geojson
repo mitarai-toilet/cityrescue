@@ -1,0 +1,2205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.790942,
+            32.0591417
+          ],
+          [
+            118.7909347,
+            32.0591096
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R106972917-1",
+        "from_node": "SPL-N8516236683",
+        "to_node": "SPL-N666941388",
+        "length_m": 3.64,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7909347,
+            32.0591096
+          ],
+          [
+            118.7909084,
+            32.0588356
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R106972917-2",
+        "from_node": "SPL-N666941388",
+        "to_node": "SPL-N666941389",
+        "length_m": 30.57,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7909084,
+            32.0588356
+          ],
+          [
+            118.7908784,
+            32.0580816
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R106972917-3",
+        "from_node": "SPL-N666941389",
+        "to_node": "SPL-N2449927711",
+        "length_m": 83.89,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7908784,
+            32.0580816
+          ],
+          [
+            118.7908727,
+            32.0579384
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R106972917-4",
+        "from_node": "SPL-N2449927711",
+        "to_node": "SPL-N666941392",
+        "length_m": 15.93,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7908279,
+            32.057219
+          ],
+          [
+            118.790775,
+            32.0572217
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236879445-1",
+        "from_node": "SPL-N666941380",
+        "to_node": "SPL-N9708723656",
+        "length_m": 4.99,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.790775,
+            32.0572217
+          ],
+          [
+            118.79073,
+            32.0572242
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236879445-2",
+        "from_node": "SPL-N9708723656",
+        "to_node": "SPL-N2450052108",
+        "length_m": 4.25,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.79073,
+            32.0572242
+          ],
+          [
+            118.7905086,
+            32.057236
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236879445-3",
+        "from_node": "SPL-N2450052108",
+        "to_node": "SPL-N2519404092",
+        "length_m": 20.91,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7905086,
+            32.057236
+          ],
+          [
+            118.790081,
+            32.0572588
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236879445-4",
+        "from_node": "SPL-N2519404092",
+        "to_node": "SPL-N2449059364",
+        "length_m": 40.38,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7880029,
+            32.0573558
+          ],
+          [
+            118.7880536,
+            32.057358
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236879446-2",
+        "from_node": "SPL-N2450052114",
+        "to_node": "SPL-N2449927719",
+        "length_m": 4.78,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7880536,
+            32.057358
+          ],
+          [
+            118.7888107,
+            32.0573087
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236879446-3",
+        "from_node": "SPL-N2449927719",
+        "to_node": "SPL-N2448395562",
+        "length_m": 71.56,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7888965,
+            32.0559011
+          ],
+          [
+            118.7894829,
+            32.055864
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946069-1",
+        "from_node": "SPL-N2449059351",
+        "to_node": "SPL-N2449059360",
+        "length_m": 55.42,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7894829,
+            32.055864
+          ],
+          [
+            118.7899635,
+            32.0558297
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946069-2",
+        "from_node": "SPL-N2449059360",
+        "to_node": "SPL-N2496987648",
+        "length_m": 45.45,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899635,
+            32.0558297
+          ],
+          [
+            118.7903343,
+            32.0558128
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946069-3",
+        "from_node": "SPL-N2496987648",
+        "to_node": "SPL-N9084269759",
+        "length_m": 35.0,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7903343,
+            32.0558128
+          ],
+          [
+            118.7905328,
+            32.0558011
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946069-4",
+        "from_node": "SPL-N9084269759",
+        "to_node": "SPL-N2449059352",
+        "length_m": 18.75,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889198,
+            32.0562807
+          ],
+          [
+            118.7894349,
+            32.0562485
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946071-1",
+        "from_node": "SPL-N2449059357",
+        "to_node": "SPL-N2450052104",
+        "length_m": 48.68,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889503,
+            32.0567944
+          ],
+          [
+            118.789542,
+            32.0567585
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946073-1",
+        "from_node": "SPL-N2449059361",
+        "to_node": "SPL-N2496987649",
+        "length_m": 55.9,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.789542,
+            32.0567585
+          ],
+          [
+            118.7900376,
+            32.0567285
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946073-2",
+        "from_node": "SPL-N2496987649",
+        "to_node": "SPL-N2449059362",
+        "length_m": 46.82,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899639,
+            32.0558381
+          ],
+          [
+            118.7899786,
+            32.056012
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946074-1",
+        "from_node": "SPL-N2449059363",
+        "to_node": "SPL-N9084269757",
+        "length_m": 19.39,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899786,
+            32.056012
+          ],
+          [
+            118.7899957,
+            32.0562134
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946074-2",
+        "from_node": "SPL-N9084269757",
+        "to_node": "SPL-N2449059359",
+        "length_m": 22.45,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899957,
+            32.0562134
+          ],
+          [
+            118.7900376,
+            32.0567285
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946074-3",
+        "from_node": "SPL-N2449059359",
+        "to_node": "SPL-N2449059362",
+        "length_m": 57.41,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7900376,
+            32.0567285
+          ],
+          [
+            118.790081,
+            32.0572588
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R236946074-4",
+        "from_node": "SPL-N2449059362",
+        "to_node": "SPL-N2449059364",
+        "length_m": 59.11,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.788973,
+            32.057208
+          ],
+          [
+            118.7889503,
+            32.0567944
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-1",
+        "from_node": "SPL-N2449713763",
+        "to_node": "SPL-N2449059361",
+        "length_m": 46.04,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889503,
+            32.0567944
+          ],
+          [
+            118.7889249,
+            32.0563662
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-2",
+        "from_node": "SPL-N2449059361",
+        "to_node": "SPL-N2450052116",
+        "length_m": 47.67,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889249,
+            32.0563662
+          ],
+          [
+            118.7889198,
+            32.0562807
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-3",
+        "from_node": "SPL-N2450052116",
+        "to_node": "SPL-N2449059357",
+        "length_m": 9.52,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889198,
+            32.0562807
+          ],
+          [
+            118.7889074,
+            32.0560715
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-4",
+        "from_node": "SPL-N2449059357",
+        "to_node": "SPL-N2450052111",
+        "length_m": 23.29,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889074,
+            32.0560715
+          ],
+          [
+            118.7888965,
+            32.0559011
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-5",
+        "from_node": "SPL-N2450052111",
+        "to_node": "SPL-N2449059351",
+        "length_m": 18.98,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7888965,
+            32.0559011
+          ],
+          [
+            118.7888948,
+            32.0558703
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-6",
+        "from_node": "SPL-N2449059351",
+        "to_node": "SPL-N9711688991",
+        "length_m": 3.43,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7888948,
+            32.0558703
+          ],
+          [
+            118.7888829,
+            32.0556593
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022770-7",
+        "from_node": "SPL-N9711688991",
+        "to_node": "SPL-N2449713765",
+        "length_m": 23.49,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889126,
+            32.0575053
+          ],
+          [
+            118.7890615,
+            32.0575042
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-1",
+        "from_node": "SPL-N2449713775",
+        "to_node": "SPL-N2449713769",
+        "length_m": 14.03,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7890615,
+            32.0575042
+          ],
+          [
+            118.7891312,
+            32.0574383
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-2",
+        "from_node": "SPL-N2449713769",
+        "to_node": "SPL-N2449927686",
+        "length_m": 9.84,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7891312,
+            32.0574383
+          ],
+          [
+            118.7891554,
+            32.0574155
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-3",
+        "from_node": "SPL-N2449927686",
+        "to_node": "SPL-N2449713771",
+        "length_m": 3.41,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7891554,
+            32.0574155
+          ],
+          [
+            118.7891527,
+            32.057303
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-4",
+        "from_node": "SPL-N2449713771",
+        "to_node": "SPL-N2448395560",
+        "length_m": 12.51,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7891527,
+            32.057303
+          ],
+          [
+            118.789045,
+            32.0572061
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-5",
+        "from_node": "SPL-N2448395560",
+        "to_node": "SPL-N2449713773",
+        "length_m": 14.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.789045,
+            32.0572061
+          ],
+          [
+            118.788973,
+            32.057208
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-6",
+        "from_node": "SPL-N2449713773",
+        "to_node": "SPL-N2449713763",
+        "length_m": 6.79,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.788973,
+            32.057208
+          ],
+          [
+            118.7889066,
+            32.0572114
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-7",
+        "from_node": "SPL-N2449713763",
+        "to_node": "SPL-N2449713774",
+        "length_m": 6.27,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889066,
+            32.0572114
+          ],
+          [
+            118.7888107,
+            32.0573087
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-8",
+        "from_node": "SPL-N2449713774",
+        "to_node": "SPL-N2448395562",
+        "length_m": 14.1,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7888107,
+            32.0573087
+          ],
+          [
+            118.7888147,
+            32.0574269
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-9",
+        "from_node": "SPL-N2448395562",
+        "to_node": "SPL-N2449713776",
+        "length_m": 13.15,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7888147,
+            32.0574269
+          ],
+          [
+            118.7888523,
+            32.057457
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-10",
+        "from_node": "SPL-N2449713776",
+        "to_node": "SPL-N2449927733",
+        "length_m": 4.87,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7888523,
+            32.057457
+          ],
+          [
+            118.7889126,
+            32.0575053
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022771-11",
+        "from_node": "SPL-N2449927733",
+        "to_node": "SPL-N2449713775",
+        "length_m": 7.82,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.790081,
+            32.0572588
+          ],
+          [
+            118.7899637,
+            32.0572644
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022772-1",
+        "from_node": "SPL-N2449059364",
+        "to_node": "SPL-N9084412767",
+        "length_m": 11.07,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899637,
+            32.0572644
+          ],
+          [
+            118.7896266,
+            32.0572804
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022772-2",
+        "from_node": "SPL-N9084412767",
+        "to_node": "SPL-N2449927684",
+        "length_m": 31.82,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7896266,
+            32.0572804
+          ],
+          [
+            118.7891527,
+            32.057303
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022772-3",
+        "from_node": "SPL-N2449927684",
+        "to_node": "SPL-N2448395560",
+        "length_m": 44.73,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7908727,
+            32.0579384
+          ],
+          [
+            118.7908322,
+            32.0572809
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022773-1",
+        "from_node": "SPL-N666941392",
+        "to_node": "SPL-N666941379",
+        "length_m": 73.21,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7908322,
+            32.0572809
+          ],
+          [
+            118.7908279,
+            32.057219
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022773-2",
+        "from_node": "SPL-N666941379",
+        "to_node": "SPL-N666941380",
+        "length_m": 6.89,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7908279,
+            32.057219
+          ],
+          [
+            118.790804,
+            32.0567201
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022773-3",
+        "from_node": "SPL-N666941380",
+        "to_node": "SPL-N2452326364",
+        "length_m": 55.52,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.790804,
+            32.0567201
+          ],
+          [
+            118.7906397,
+            32.0558709
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237022773-4",
+        "from_node": "SPL-N2452326364",
+        "to_node": "SPL-N666941383",
+        "length_m": 95.69,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.790011,
+            32.0585812
+          ],
+          [
+            118.7896716,
+            32.0585971
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042930-1",
+        "from_node": "SPL-N2449927702",
+        "to_node": "SPL-N2449927731",
+        "length_m": 32.03,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7896716,
+            32.0585971
+          ],
+          [
+            118.789653,
+            32.058123
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042930-2",
+        "from_node": "SPL-N2449927731",
+        "to_node": "SPL-N2449927696",
+        "length_m": 52.75,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.789653,
+            32.058123
+          ],
+          [
+            118.7896475,
+            32.0577954
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042930-3",
+        "from_node": "SPL-N2449927696",
+        "to_node": "SPL-N2449927704",
+        "length_m": 36.43,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7896475,
+            32.0577954
+          ],
+          [
+            118.7896345,
+            32.0574753
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042930-4",
+        "from_node": "SPL-N2449927704",
+        "to_node": "SPL-N9084412771",
+        "length_m": 35.61,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7896345,
+            32.0574753
+          ],
+          [
+            118.7896266,
+            32.0572804
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042930-5",
+        "from_node": "SPL-N9084412771",
+        "to_node": "SPL-N2449927684",
+        "length_m": 21.68,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7891312,
+            32.0574383
+          ],
+          [
+            118.7896475,
+            32.0577954
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042931-1",
+        "from_node": "SPL-N2449927686",
+        "to_node": "SPL-N2449927704",
+        "length_m": 62.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7897213,
+            32.0590955
+          ],
+          [
+            118.7900378,
+            32.0590864
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-3",
+        "from_node": "SPL-N2449927698",
+        "to_node": "SPL-N2449927700",
+        "length_m": 29.84,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7900378,
+            32.0590864
+          ],
+          [
+            118.790011,
+            32.0585812
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-4",
+        "from_node": "SPL-N2449927700",
+        "to_node": "SPL-N2449927702",
+        "length_m": 56.23,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.790011,
+            32.0585812
+          ],
+          [
+            118.7900056,
+            32.0582749
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-5",
+        "from_node": "SPL-N2449927702",
+        "to_node": "SPL-N2449927692",
+        "length_m": 34.06,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7900056,
+            32.0582749
+          ],
+          [
+            118.7899936,
+            32.0582465
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-6",
+        "from_node": "SPL-N2449927692",
+        "to_node": "SPL-N2453412724",
+        "length_m": 3.35,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899936,
+            32.0582465
+          ],
+          [
+            118.789973,
+            32.0582143
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-7",
+        "from_node": "SPL-N2453412724",
+        "to_node": "SPL-N2453412718",
+        "length_m": 4.07,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.789973,
+            32.0582143
+          ],
+          [
+            118.7899144,
+            32.058166
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-8",
+        "from_node": "SPL-N2453412718",
+        "to_node": "SPL-N2453412721",
+        "length_m": 7.7,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899144,
+            32.058166
+          ],
+          [
+            118.7898225,
+            32.058123
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-9",
+        "from_node": "SPL-N2453412721",
+        "to_node": "SPL-N2449927694",
+        "length_m": 9.89,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7898225,
+            32.058123
+          ],
+          [
+            118.7897433,
+            32.0581217
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-10",
+        "from_node": "SPL-N2449927694",
+        "to_node": "SPL-N2449927708",
+        "length_m": 7.47,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7897433,
+            32.0581217
+          ],
+          [
+            118.789653,
+            32.058123
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042932-11",
+        "from_node": "SPL-N2449927708",
+        "to_node": "SPL-N2449927696",
+        "length_m": 8.51,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7898225,
+            32.058123
+          ],
+          [
+            118.7905528,
+            32.0580952
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042935-1",
+        "from_node": "SPL-N2449927694",
+        "to_node": "SPL-N2449927713",
+        "length_m": 68.89,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7905528,
+            32.0580952
+          ],
+          [
+            118.7907677,
+            32.0580893
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042935-2",
+        "from_node": "SPL-N2449927713",
+        "to_node": "SPL-N9708723661",
+        "length_m": 20.26,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7905528,
+            32.0580952
+          ],
+          [
+            118.7905086,
+            32.057236
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042937-1",
+        "from_node": "SPL-N2449927713",
+        "to_node": "SPL-N2519404092",
+        "length_m": 95.63,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7883852,
+            32.0576833
+          ],
+          [
+            118.7880685,
+            32.0576941
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042939-1",
+        "from_node": "SPL-N2449927717",
+        "to_node": "SPL-N2449927721",
+        "length_m": 29.87,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7880685,
+            32.0576941
+          ],
+          [
+            118.7880536,
+            32.057358
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042939-2",
+        "from_node": "SPL-N2449927721",
+        "to_node": "SPL-N2449927719",
+        "length_m": 37.4,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7896716,
+            32.0585971
+          ],
+          [
+            118.7884483,
+            32.0586542
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-1",
+        "from_node": "SPL-N2449927731",
+        "to_node": "SPL-N2452364603",
+        "length_m": 115.46,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7884483,
+            32.0586542
+          ],
+          [
+            118.7883952,
+            32.0578371
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-2",
+        "from_node": "SPL-N2452364603",
+        "to_node": "SPL-N2497009555",
+        "length_m": 91.0,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7883952,
+            32.0578371
+          ],
+          [
+            118.7883852,
+            32.0576833
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-3",
+        "from_node": "SPL-N2497009555",
+        "to_node": "SPL-N2449927717",
+        "length_m": 17.13,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7883852,
+            32.0576833
+          ],
+          [
+            118.7883828,
+            32.0576455
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-4",
+        "from_node": "SPL-N2449927717",
+        "to_node": "SPL-N2449927723",
+        "length_m": 4.21,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7883828,
+            32.0576455
+          ],
+          [
+            118.7886741,
+            32.0576319
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-5",
+        "from_node": "SPL-N2449927723",
+        "to_node": "SPL-N2449927725",
+        "length_m": 27.49,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7886741,
+            32.0576319
+          ],
+          [
+            118.7886866,
+            32.0578235
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-6",
+        "from_node": "SPL-N2449927725",
+        "to_node": "SPL-N2449927727",
+        "length_m": 21.34,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7886866,
+            32.0578235
+          ],
+          [
+            118.7883952,
+            32.0578371
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042941-7",
+        "from_node": "SPL-N2449927727",
+        "to_node": "SPL-N2497009555",
+        "length_m": 27.5,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7886741,
+            32.0576319
+          ],
+          [
+            118.7888523,
+            32.057457
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237042943-1",
+        "from_node": "SPL-N2449927725",
+        "to_node": "SPL-N2449927733",
+        "length_m": 25.7,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7895823,
+            32.0562404
+          ],
+          [
+            118.7895156,
+            32.0563041
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057057-1",
+        "from_node": "SPL-N2450052106",
+        "to_node": "SPL-N2450052103",
+        "length_m": 9.47,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7894349,
+            32.0562485
+          ],
+          [
+            118.7895066,
+            32.0561841
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057058-1",
+        "from_node": "SPL-N2450052104",
+        "to_node": "SPL-N2450052105",
+        "length_m": 9.85,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7895823,
+            32.0562404
+          ],
+          [
+            118.7899957,
+            32.0562134
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057059-1",
+        "from_node": "SPL-N2450052106",
+        "to_node": "SPL-N2449059359",
+        "length_m": 39.07,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7895156,
+            32.0563041
+          ],
+          [
+            118.7894349,
+            32.0562485
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057060-1",
+        "from_node": "SPL-N2450052103",
+        "to_node": "SPL-N2450052104",
+        "length_m": 9.8,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7895156,
+            32.0563041
+          ],
+          [
+            118.789542,
+            32.0567585
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057061-1",
+        "from_node": "SPL-N2450052103",
+        "to_node": "SPL-N2496987649",
+        "length_m": 50.59,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7895066,
+            32.0561841
+          ],
+          [
+            118.7894829,
+            32.055864
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057062-1",
+        "from_node": "SPL-N2450052105",
+        "to_node": "SPL-N2449059360",
+        "length_m": 35.66,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7895066,
+            32.0561841
+          ],
+          [
+            118.7895823,
+            32.0562404
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057063-1",
+        "from_node": "SPL-N2450052105",
+        "to_node": "SPL-N2450052106",
+        "length_m": 9.49,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7889074,
+            32.0560715
+          ],
+          [
+            118.7884193,
+            32.0561116
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057065-1",
+        "from_node": "SPL-N2450052111",
+        "to_node": "SPL-N9711688988",
+        "length_m": 46.21,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7884193,
+            32.0561116
+          ],
+          [
+            118.7878608,
+            32.0561574
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057065-2",
+        "from_node": "SPL-N9711688988",
+        "to_node": "SPL-N2450052112",
+        "length_m": 52.88,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7878608,
+            32.0561574
+          ],
+          [
+            118.7878859,
+            32.0564278
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057065-3",
+        "from_node": "SPL-N2450052112",
+        "to_node": "SPL-N2450052113",
+        "length_m": 30.16,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7878859,
+            32.0564278
+          ],
+          [
+            118.7879668,
+            32.0568944
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057065-4",
+        "from_node": "SPL-N2450052113",
+        "to_node": "SPL-N2452326340",
+        "length_m": 52.44,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7879668,
+            32.0568944
+          ],
+          [
+            118.7880029,
+            32.0573558
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237057065-5",
+        "from_node": "SPL-N2452326340",
+        "to_node": "SPL-N2450052114",
+        "length_m": 51.42,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7899639,
+            32.0558381
+          ],
+          [
+            118.7899635,
+            32.0558297
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237063305-1",
+        "from_node": "SPL-N2449059363",
+        "to_node": "SPL-N2496987648",
+        "length_m": 0.93,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.7878143,
+            32.0556122
+          ],
+          [
+            118.7878608,
+            32.0561574
+          ]
+        ]
+      },
+      "properties": {
+        "road_id": "SPL-R237063305-6",
+        "from_node": "SPL-N2450172907",
+        "to_node": "SPL-N2450052112",
+        "length_m": 60.78,
+        "speed_kmh": 15,
+        "one_way": false,
+        "data_origin": "estimated"
+      }
+    }
+  ]
+}
