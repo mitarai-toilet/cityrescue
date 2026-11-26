@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": "synthetic-single-task-baseline",
+    "manual_closed_road": null,
+    "road_ids": ["SIM-R01", "SIM-R02"],
+    "eta_min": 0.9
+  },
+  {
+    "case_id": "synthetic-single-task-R01-closed",
+    "manual_closed_road": "SIM-R01",
+    "road_ids": ["SIM-R07", "SIM-R03", "SIM-R15"],
+    "eta_min": 1.56
+  }
+]

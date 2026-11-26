@@ -55,6 +55,7 @@ def server(directory):
             if time.monotonic() > deadline:
                 raise AssertionError("Uvicorn did not become ready within 10 seconds")
             time.sleep(0.05)
+        request.base_url = url
         yield request
     finally:
         proc.terminate()

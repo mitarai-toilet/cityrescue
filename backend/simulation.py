@@ -12,6 +12,7 @@ from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
 
 from backend.campus import CampusDataError, entity_schema, load_campus, read_json
+from backend.providers import invoke
 
 
 @dataclass
@@ -21,6 +22,8 @@ class Replay:
     roads: list[dict]
     buildings: list[dict]
     provenance: list[str]
+    mode: str = 'fixture_replay'
+    data_origin: str = 'synthetic'
 
 
 class SimulationProvider(Protocol):
@@ -37,7 +40,7 @@ def validate(entity: str, records: list[dict]):
         try:
             validator.validate(record)
         except ValidationError as exc:
-            raise CampusDataError("invalid_simulation_data", f"Invalid {entity}: {exc.message}") from exc
+            raise CampusDataError("invalid_simulation_data", f"Invalid {entity} provider record") from exc
 
 
 class FixtureSimulationProvider:
@@ -102,13 +105,29 @@ class FixtureSimulationProvider:
 class RunStore:
     """App-local memory. Atomic publication and defensive copies isolate all readers."""
 
-    def __init__(self, provider: SimulationProvider):
+    def __init__(self, provider: SimulationProvider, spatial_loader=load_campus):
         self.provider = provider
+        self.spatial_loader = spatial_loader
         self._runs = {}
+        self._base_roads = {}
+        self._manual_closed = {}
+        self._changes = {}
+        self._dispatches = {}
         self._lock = Lock()
 
+    def scenarios(self):
+        scenarios = deepcopy(invoke(self.provider.scenarios))
+        if not isinstance(scenarios, list):
+            raise CampusDataError('invalid_simulation_data', 'Provider scenarios must be an array')
+        validate('scenario', scenarios)
+        campus_id = self.spatial_loader()['campus']['campus_id']
+        if (len({s['scenario_id'] for s in scenarios}) != len(scenarios)
+                or any(s['campus_id'] != campus_id for s in scenarios)):
+            raise CampusDataError('invalid_simulation_data', 'Invalid scenario IDs or Campus reference')
+        return scenarios
+
     def scenario(self, scenario_id):
-        for scenario in self.provider.scenarios():
+        for scenario in self.scenarios():
             if scenario["scenario_id"] == scenario_id:
                 return scenario
         raise HTTPException(404, detail={"code": "scenario_not_found"})
@@ -117,8 +136,12 @@ class RunStore:
         scenario = self.scenario(scenario_id)
         if params is not None and params != scenario["params"]:
             raise HTTPException(422, detail={"code": "unsupported_replay_parameters", "message": "Only exact fixture params are supported"})
-        replay = self.provider.replay(scenario)
+        replay = deepcopy(invoke(self.provider.replay, deepcopy(scenario)))
+        if not isinstance(replay, Replay):
+            raise CampusDataError('invalid_simulation_data', 'Provider must return Replay')
         validate("scenario", [replay.scenario])
+        if not isinstance(replay.roads, list) or not isinstance(replay.buildings, list):
+            raise CampusDataError('invalid_simulation_data', 'Provider states must be arrays')
         validate("road_state", replay.roads)
         validate("building_state", replay.buildings)
         if replay.scenario != scenario or not isinstance(replay.time_min, int) or replay.time_min < 0:
@@ -127,18 +150,33 @@ class RunStore:
             if (len({record[f"{kind}_id"] for record in records}) != len(records)
                     or any(record["time_min"] != replay.time_min for record in records)):
                 raise CampusDataError("invalid_simulation_data", "Provider snapshot is inconsistent")
-        # This is the only publication point. Future updates must publish a complete
-        # validated snapshot under this lock; GET handlers never update this mapping.
+        spatial = self.spatial_loader()
+        if ({r['road_id'] for r in replay.roads} != {r['road_id'] for r in spatial['roads']}
+                or not {b['building_id'] for b in replay.buildings} <= {b['building_id'] for b in spatial['buildings']}):
+            raise CampusDataError('invalid_simulation_data', 'Provider state references invalid spatial assets')
+        if (type(replay.time_min) is not int or replay.time_min > scenario['duration_min']
+                or replay.time_min % scenario['step_min']
+                or replay.mode not in ('fixture_replay', 'simulation')
+                or replay.data_origin not in ('synthetic', 'estimated', 'real')
+                or not isinstance(replay.provenance, list)
+                or any(not isinstance(p, str) or not p for p in replay.provenance)):
+            raise CampusDataError('invalid_simulation_data', 'Invalid provider context')
+        # Initial publication and manual updates both publish complete validated
+        # snapshots under this lock; GET handlers never update this mapping.
         with self._lock:
             run_id = "run-" + uuid4().hex
             while run_id in self._runs:
                 run_id = "run-" + uuid4().hex
             roads = [{**s, "state_version": 0} for s in replay.roads]
             snapshot = {"run_id": run_id, "scenario_id": scenario_id, "state_version": 0,
-                        "time_min": replay.time_min, "mode": "fixture_replay", "data_origin": "synthetic",
+                        "time_min": replay.time_min, "mode": replay.mode, "data_origin": replay.data_origin,
                         "scenario": deepcopy(replay.scenario), "provenance": replay.provenance,
                         "roads": roads, "buildings": deepcopy(replay.buildings)}
             self._runs[run_id] = deepcopy(snapshot)
+            self._base_roads[run_id] = deepcopy(roads)
+            self._manual_closed[run_id] = set()
+            self._changes[run_id] = []
+            self._dispatches[run_id] = []
             return deepcopy(snapshot)
 
     def get(self, run_id):
@@ -146,3 +184,65 @@ class RunStore:
             if run_id not in self._runs:
                 raise HTTPException(404, detail={"code": "run_not_found"})
             return deepcopy(self._runs[run_id])
+
+    def _checked(self, run_id, version):
+        if run_id not in self._runs:
+            raise HTTPException(404, detail={"code": "run_not_found"})
+        current = self._runs[run_id]
+        if version != current["state_version"]:
+            raise HTTPException(409, detail={"code": "state_version_conflict",
+                                            "current_state_version": current["state_version"]})
+        return current
+
+    def checked_snapshot(self, run_id, version):
+        with self._lock:
+            return deepcopy(self._checked(run_id, version))
+
+    def set_manual_closure(self, run_id, road_id, version, closed):
+        with self._lock:
+            current = self._checked(run_id, version)
+            if road_id not in {road['road_id'] for road in self._base_roads[run_id]}:
+                raise HTTPException(404, detail={"code": "road_not_found"})
+            manual = self._manual_closed[run_id]
+            changed = (road_id in manual) != closed
+            if changed:
+                next_manual = set(manual)
+                if closed:
+                    next_manual.add(road_id)
+                else:
+                    next_manual.discard(road_id)
+                new_version = version + 1
+                next_snapshot = deepcopy(current)
+                next_snapshot['state_version'] = new_version
+                next_snapshot['roads'] = []
+                for base in self._base_roads[run_id]:
+                    road = {**base, 'state_version': new_version}
+                    if road['road_id'] in next_manual and road['status'] != 'closed':
+                        road.update(status='closed', source='manual', reason='Manual closure')
+                    next_snapshot['roads'].append(road)
+                validate('road_state', next_snapshot['roads'])
+                self._runs[run_id] = next_snapshot
+                self._manual_closed[run_id] = next_manual
+                self._changes[run_id].append({
+                    'road_id': road_id, 'action': 'close' if closed else 'open',
+                    'previous_state_version': version, 'state_version': new_version,
+                    'effective_status': next(r['status'] for r in next_snapshot['roads'] if r['road_id'] == road_id),
+                })
+                current = next_snapshot
+            return {'run_id': run_id, 'state_version': current['state_version'], 'changed': changed,
+                    'manual_closed': road_id in self._manual_closed[run_id],
+                    'road': deepcopy(next(r for r in current['roads'] if r['road_id'] == road_id))}
+
+    def history(self, run_id):
+        with self._lock:
+            if run_id not in self._runs:
+                raise HTTPException(404, detail={'code': 'run_not_found'})
+            return deepcopy({'run_id': run_id, 'changes': self._changes[run_id],
+                             'dispatches': self._dispatches[run_id]})
+
+    def record_dispatch(self, run_id, version, record):
+        # Provider execution may occur outside the lock. Recheck before publication
+        # so a concurrent closure cannot make a stale result appear current.
+        with self._lock:
+            self._checked(run_id, version)
+            self._dispatches[run_id].append(deepcopy(record))

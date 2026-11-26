@@ -8,7 +8,7 @@ BuildingState 用 `building_id` 引用建筑。Scenario 的 `params` 当前只�
 具体灾种参数需要 C/E 后续共同约定。Vehicle、Event 是调度输入，DispatchResult 是输出。
 `risk_penalty_min` 为风险惩罚分钟，独立于行驶 ETA；旧 `risk_cost` 不得直接换算。
 RoadState 的 `state_version` 目前为可选非负整数，DispatchResult/ExplainResult 中为必填；
-后端运行版本维护与旧版本拦截尚未实现，本轮只读接口不会生成或推进状态版本。
+只读校园接口不生成或推进版本；运行初始化、人工封路版本维护与 409 冲突拦截已实现，见下文。
 
 ## 启动
 
@@ -85,7 +85,8 @@ roads.geojson、buildings.geojson。这些是合成占位数据，不代表任�
 ## 后续集成
 
 已实现：只读空间文件加载、规范校验、引用与重复 ID 检查、校园/路网查询。
-尚未实现：真实校园授权数据接入、灾害计算、车辆派遣、重规划、运行版本存储、AI 调用。
+尚未实现：真实校园授权数据接入、灾害计算、真实调度/动态重规划、运行持久化、AI 调用。
+目前具备运行内存存储、人工封路与固定匹配调度接口。
 
 下一轮建议 C/E 先约定 flood/earthquake 参数的服务层校验，沿用冻结 Scenario 输入；
 由 C 输出 RoadState/BuildingState，E 在运行包装层绑定 run_id/state_version，
@@ -163,8 +164,8 @@ OpenAPI 直接嵌入对应实体 Schema，并定义运行包装的必填字段�
 
 创建新运行不替换任何已有运行、不修改校园空间数据；无全局“当前运行”。
 GET 返回防御性副本，不改变版本。版本编号仅在 run_id 内比较，不能跨运行比较。
-未来人工封路入口应对完整校验后的新快照作原子发布，每次成功修改加 1，
-但本轮未实现更新 API、旧版本冲突拦截或派车。
+人工封路入口对完整校验后的新快照作原子发布，每次覆盖层有效变化加 1，
+已实现版本冲突拦截；真实派车仍待 D 的算法集成。
 
 每个 FastAPI app 实例有一个 RunStore；锁保护原子发布和读取，防御性拷贝隔离调用方。
 所有 provider 输出通过验证后才进入发布点。尚无容量限制/淘汰策略，适用于短期单进程联调。
@@ -189,8 +190,9 @@ def replay(self, scenario: dict) -> Replay: ...
 Scenario/RoadState/BuildingState，引用有效资产，无重复/矛盾状态，时间片一致。
 通过 `create_app(simulation_provider=provider)` 注入，不需要更改只读校园 API。
 run_id 和运行版本由 E 的 RunStore 维护，C 不分配运行版本。
-目前这个接口只定义同步单快照返回；未来真实计算需共同升级 API 模式及来源包装，
-当前 `mode=fixture_replay/data_origin=synthetic` 不得直接复用于真实模型的标签。
+目前这个接口只定义同步单快照返回；Replay 支持明确的 mode/data_origin，
+默认 `fixture_replay/synthetic` 不得直接复用于真实模型的标签。
+真实适配器可返回 `mode=simulation` 及对应来源，包装枚举已支持，实体 Schema 不变。
 
 ### 灾害状态测试
 
@@ -206,3 +208,161 @@ run_id 和运行版本由 E 的 RunStore 维护，C 不分配运行版本。
 本轮最终执行结果（2026-11-22）：**41 passed in 16.70s**，0 failed、0 skipped。
 包含 9 项灾害状态测试、7 项校园 HTTP 测试、24 项契约/fixture/Schema 测试和
 1 项原 ASGI 健康测试。Python 编译检查通过，冻结 Schema 和空间 fixture 未改动。
+
+## 人工封路、版本冲突与调度集成
+
+本节为 E 的后端 API 决策，不更改冻结实体 Schema。分支为 `feature/E-api`，
+仅推送该分支，不自动合并 main。查询当前仓库及远程分支时，尚未发现 D 的算法实现。
+
+| 方法与路径 | 用途 |
+| --- | --- |
+| POST /api/v1/simulation/runs/{run_id}/roads/{road_id}/close | 添加人工封路覆盖 |
+| POST /api/v1/simulation/runs/{run_id}/roads/{road_id}/open | 解除人工封路覆盖 |
+| GET /api/v1/simulation/runs/{run_id}/history | 返回该运行 changes 与 dispatches 记录 |
+| POST /api/v1/dispatch | 使用当前运行快照调用调度 Provider |
+
+### 修改请求、幂等性和灾害优先级
+
+close/open 请求体均为 `{"state_version":0}`。必须提供非负整数，拒绝布尔值、字符串和额外字段。
+请求包装不属于 RoadState 实体。成功响应结构示例：
+
+```json
+{
+  "run_id":"run-<真实运行ID>",
+  "state_version":1,
+  "changed":true,
+  "manual_closed":true,
+  "road":{"road_id":"SIM-R01","time_min":20,"status":"closed","depth_m":0.0,
+          "risk_penalty_min":1,"reason":"Manual closure","source":"manual","state_version":1}
+}
+```
+
+run_id/road_id 不存在时返回 404。state_version 不匹配时返回 409：
+
+```json
+{"detail":{"code":"state_version_conflict","current_state_version":1}}
+```
+
+客户端收到 409 后先 GET `/state`，再根据最新状态和版本决定是否重试；不得盲目覆盖。
+即使是重复操作也先验证版本。持有最新版本的重复 close/open 返回 changed=false，
+不增加版本、不增加变更记录。成功变更后该运行所有 RoadState 的版本同步更新。
+
+内部保留初始化灾害状态和人工覆盖集合，不修改原始空间文件或灾害 fixture。
+有效道路状态遵循“灾害 closed 或人工 closed 都禁行”。灾害已 closed 时添加人工覆盖，
+有效通行状态不变，但人工覆盖层发生实际变化，故版本加 1 并记录；重复添加不加版本。
+对灾害禁行道路 open 只移除人工覆盖，仍输出灾害 closed/source=hazard。
+灾害 caution/open 道路在解除人工覆盖后恢复初始化状态、原因与风险值。
+
+版本比较、覆盖层更新、完整快照发布及变更记录在同一锁内原子完成，
+同旧版本的两个有效修改最多一个成功。不同运行独立。history 为运行内存记录，
+changes 含道路、动作、前后版本和最终状态；dispatches 保存成功调度响应及其使用版本。
+冲突、无变化或失败调度不新增记录；无时间戳/持久审计数据库，重启后记录和运行均丢失。
+
+### 调度输入和固定案例
+
+请求包装含 run_id、state_version、Vehicle 数组、Event 数组；节点、道路和 RoadState
+由后端根据运行及校园数据加载，不接受客户端伪造空间图或道路状态。
+Vehicle/Event 使用完整冻结实体字段，Schema 错误、重复 ID、无效节点引用返回 422。
+run_id 不存在返回 404，版本不符返回 409。
+
+以下是固定案例的真实输入（将 run_id 替换为创建运行得到的值）：
+
+```json
+{
+  "run_id":"run-<真实运行ID>",
+  "state_version":0,
+  "vehicles":[{"vehicle_id":"SIM-V1","node_id":"SIM-N1","capability":["medical","general"],"available_at_min":0}],
+  "events":[{"event_id":"SIM-E1","node_id":"SIM-N3","priority":1,"demand":1,"status":"pending"}]
+}
+```
+
+成功响应为 API 包装 `{"provider":"fixture_dispatch","result":<DispatchResult>}`。
+result 完全符合冻结 DispatchResult；provider 是包装层来源标识。返回前校验版本、ID、
+任务完整性、车辆/任务不重复、路线连续性、方向和禁行边。Provider 输出不合法返回 502
+`invalid_dispatch_provider_result`。Provider 计算期间若道路版本变化，发布前再校验，
+返回 409 且不保存过期调度结果。调度本身不增加道路版本、不更新车辆位置或任务状态。
+
+默认 FixtureDispatchProvider **只支持**与默认合成空间数据、洪涝第 20 分钟 Scenario、
+SIM-V1/SIM-E1 完整实体及完整道路快照匹配的两个案例：
+
+| 条件 | 固定 road_ids | 固定 eta_min |
+| --- | --- | --- |
+| 原始洪涝道路快照（SIM-R09 禁行） | SIM-R01、SIM-R02 | 0.9 |
+| 上述快照再人工关闭 SIM-R01 | SIM-R07、SIM-R03、SIM-R15 | 1.56 |
+
+案例保存在 `backend/fixtures/dispatch_cases.json`，是 E 的接口测试用合成结果。
+ETA 是该固定案例的行驶分钟值，不含风险惩罚。Provider 仅做完整输入匹配与结果选择，
+未实现最短路、能力匹配或最优派车。支持 open 恢复原始快照后再次匹配；
+其他车辆/事件、地震、额外封路、空间变化或任意不匹配输入返回 501
+`dispatch_input_not_supported`，不伪造成功结果。两车三任务算法尚未接入。
+
+### 端到端联调顺序
+
+1. POST `/api/v1/simulation/runs`，输入 `{"scenario_id":"SIM-FLOOD-01"}`，取得 run_id、版本 0。
+2. GET `/api/v1/simulation/runs/{run_id}/state` 确认版本。
+3. POST `/api/v1/dispatch`，使用上述单车单任务请求和版本 0，获得基线固定结果。
+4. POST `/api/v1/simulation/runs/{run_id}/roads/SIM-R01/close`，体为 `{"state_version":0}`，取得版本 1。
+5. 再 POST `/api/v1/dispatch`，仅把 state_version 改为 1，获得预设绕行结果。
+6. GET `/history` 查看变更和分别绑定版本 0/1 的调度记录。
+7. POST 对应 `/open`，体为 `{"state_version":1}`，恢复灾害基线并得到版本 2。
+
+这条调用链已通过真实 Uvicorn HTTP 测试，但它证明的是固定案例与版本衔接，
+不能据此称为真实算法已接入或真实封路动态重规划已验收。
+
+### D 的 Provider 接入
+
+`backend.dispatching.DispatchProvider` 要求提供 name 和
+`dispatch(snapshot, spatial, vehicles, events) -> DispatchResult`。
+通过 `create_app(dispatch_provider=provider)` 注入；后端传递隔离副本，spatial 含校园、节点、道路、建筑，
+snapshot 含指定运行当前 RoadState、run_id、state_version 和其他回放信息。
+D 负责真实路径/调度计算；E 保留输入校验、输出校验、并发版本拦截和运行记录。
+返回的 result 必须使用输入快照版本、只引用有效 ID、避开 closed 边且遵守方向，
+不得把风险惩罚当作行驶 ETA。不可达 assignment 需空路线和明确 reason；
+未分配任务用 unassigned_events 引用。真实计算完成后应增加两车三任务、无车、
+完全不可达和真实重规划的算法/集成验收，而不是继续扩展固定案例冒充算法。
+
+### 本轮校验
+
+```powershell
+.\.venv\Scripts\python.exe -m py_compile backend/app.py backend/simulation.py backend/dispatching.py tests/test_closure_dispatch_api.py
+.\.venv\Scripts\python.exe -m pytest -q tests/test_closure_dispatch_api.py tests/test_simulation_api.py tests/test_campus_api.py tests/test_contracts.py tests/test_fixture_integrity.py tests/test_schema_validation.py tests/test_api.py
+```
+
+测试通过真实 HTTP 验证封路/恢复/409/调度调用链，并单独验证同旧版本并发修改、
+灾害禁行保留、Provider 不匹配拒绝、Provider 返回坏路由/版本拒绝、计算期间状态变化拒绝。
+未覆盖真实 D 算法与真实动态重规划。原始 fixture 与冻结 Schema 不变。
+
+最终回归结果（2026-11-22）：**55 passed, 1 warning in 19.12s**，0 failed、0 skipped。
+其中新增封路/调度测试 14 项，原有回归 41 项；包含真实 Uvicorn HTTP 和原 ASGI 健康测试。
+警告来自 Starlette 对当前 TestClient/httpx 组合的弃用提示，测试本次执行成功。
+Python 编译、`git diff --check` 均通过；契约和空间 fixture 无改动。
+
+11 月 26 日中期最小闭环仍需：D 提交真实 DispatchProvider（至少一车一任务路径、
+封路绕行和不可达）；B 接入当前 API 并显示版本冲突/来源标记与路线；C/E 共同确认
+灾害输出快照及时间片交接。两车三任务、真实校园合法数据与正式灾害计算仍需各责任人交付。
+
+## 第四步 Provider 集成验收
+
+调用签名保持既有 SimulationProvider/DispatchProvider 兼容。RunStore 统一校验所有
+Provider 的 Scenario、状态实体、空间引用、时间片和来源上下文；IntegrationService
+统一执行调度副本隔离、输入输出校验、版本复核和结果记录。GET 无隐式更新。
+
+错误规则保留原 404/409/422/501/502/503；新增框架无关 ProviderError，明确参数错误 400、
+暂不可用 503、未支持 501，未知模块异常为可识别的 500，不向响应暴露堆栈或敏感路径。
+新适配器接入步骤、示例与最低交付见 [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)。
+
+真实 HTTP 演示脚本为 `scripts/demo_backend.ps1`。服务启动后执行：
+
+```powershell
+pwsh -NoProfile -File scripts/demo_backend.ps1 -BaseUrl http://127.0.0.1:8000
+.\.venv\Scripts\python.exe -m pytest -q tests
+```
+
+脚本读取现有 ID、创建专用运行并验证固定调度、封路和 409；不改变原有运行或原始数据，
+只访问本机回环地址并绕过系统代理。失败返回非零，明确输出真实算法尚未覆盖。
+本轮新增 `tests/test_provider_integration.py`，覆盖模块异常、坏 Schema/引用、失败隔离、
+模式来源标签和真实 PowerShell HTTP 演示；前三步既有并发/版本/回归测试继续保留。
+
+2026-11-22 最终完整回归：**70 passed, 1 warning in 23.34s**，无失败、无跳过；
+其中新增 15 项集成测试。PowerShell 演示退出码 0，输出 PASS 及未覆盖真实算法的提示。
+唯一警告为既有 TestClient/httpx 弃用提示。编译与差异检查通过。

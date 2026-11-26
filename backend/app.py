@@ -1,4 +1,5 @@
 from pathlib import Path
+import logging
 
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
@@ -6,6 +7,8 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from backend.campus import CampusDataError, DEFAULT_DATA, entity_schema, load_campus
 from backend.simulation import FixtureSimulationProvider, RunStore, SimulationProvider
+from backend.dispatching import DispatchProvider, FixtureDispatchProvider
+from backend.integration import IntegrationService
 
 
 class CreateRun(BaseModel):
@@ -13,18 +16,35 @@ class CreateRun(BaseModel):
     scenario_id: str = Field(min_length=1, strict=True)
     params: dict | None = None
 
+
+class VersionRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    state_version: int = Field(ge=0, strict=True)
+
+
+class DispatchRequest(VersionRequest):
+    run_id: str = Field(min_length=1, strict=True)
+    vehicles: list[dict]
+    events: list[dict]
+
 def health() -> dict[str, str]:
     return {"status": "ok", "service": "cityrescue-api", "version": "0.1.0"}
 
 
-def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: SimulationProvider | None = None) -> FastAPI:
+def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: SimulationProvider | None = None,
+               dispatch_provider: DispatchProvider | None = None) -> FastAPI:
     application = FastAPI(title="CITYRESCUE AI API", version="0.1.0",
-                          description="Read-only v0.1 campus API. Default data is synthetic, not a real campus survey.")
+                          description="v0.1 campus, synthetic replay and dispatch integration APIs. Default dispatch is fixture-only.")
     application.add_api_route("/health", health, methods=["GET"])
 
     @application.exception_handler(CampusDataError)
     async def data_error_handler(request: Request, exc: CampusDataError):
         return JSONResponse(status_code=503, content={"detail": {"code": exc.code, "message": str(exc)}})
+
+    @application.exception_handler(Exception)
+    async def unexpected_error_handler(request: Request, exc: Exception):
+        logging.getLogger(__name__).error('Unexpected backend error', exc_info=exc)
+        return JSONResponse(status_code=500, content={'detail': {'code': 'internal_error'}})
 
     schemas = {name: entity_schema(name) for name in ("campus", "node", "road", "building")}
     graph_schema = {"type": "object", "required": ["campus", "nodes", "roads"], "properties": {
@@ -51,7 +71,8 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
         register(f"/api/v1/campus/{plural}", plural, {"type": "array", "items": schemas[name]})
     register("/api/v1/campus/graph", "graph", graph_schema)
 
-    store = RunStore(simulation_provider if simulation_provider is not None else FixtureSimulationProvider(Path(data_directory)))
+    spatial_loader = lambda: load_campus(Path(data_directory))
+    store = RunStore(simulation_provider if simulation_provider is not None else FixtureSimulationProvider(Path(data_directory)), spatial_loader)
     # One store per app/worker. No global current run or implicit GET mutations.
     application.state.simulation_runs = store
 
@@ -64,7 +85,7 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
         "run_id": {"type": "string"}, "scenario_id": {"type": "string"},
         "state_version": {"type": "integer", "minimum": 0},
         "time_min": {"type": "integer", "minimum": 0},
-        "mode": {"const": "fixture_replay"}, "data_origin": {"const": "synthetic"},
+        "mode": {"enum": ["fixture_replay", "simulation"]}, "data_origin": {"enum": ["synthetic", "estimated", "real"]},
         "scenario": entity_schema("scenario"),
         "provenance": {"type": "array", "items": {"type": "string"}},
     }
@@ -78,7 +99,7 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
 
     @application.get("/api/v1/scenarios", responses=response({"type": "array", "items": entity_schema("scenario")}))
     async def scenarios():
-        return store.provider.scenarios()
+        return store.scenarios()
 
     @application.get("/api/v1/scenarios/{scenario_id}", responses=response(entity_schema("scenario")))
     async def scenario(scenario_id: str):
@@ -106,6 +127,28 @@ def create_app(data_directory: Path = DEFAULT_DATA, simulation_provider: Simulat
     @application.get("/api/v1/simulation/runs/{run_id}/state", responses=response(state_schema))
     async def run_state(run_id: str):
         return store.get(run_id)
+
+    @application.post('/api/v1/simulation/runs/{run_id}/roads/{road_id}/close')
+    async def close_road(run_id: str, road_id: str, body: VersionRequest):
+        return store.set_manual_closure(run_id, road_id, body.state_version, True)
+
+    @application.post('/api/v1/simulation/runs/{run_id}/roads/{road_id}/open')
+    async def open_road(run_id: str, road_id: str, body: VersionRequest):
+        return store.set_manual_closure(run_id, road_id, body.state_version, False)
+
+    @application.get('/api/v1/simulation/runs/{run_id}/history')
+    async def run_history(run_id: str):
+        return store.history(run_id)
+
+    dispatcher = dispatch_provider if dispatch_provider is not None else FixtureDispatchProvider()
+    integration = IntegrationService(store, spatial_loader, dispatcher)
+    application.state.integration = integration
+    dispatch_schema = {'type': 'object', 'required': ['provider', 'result'], 'properties': {
+        'provider': {'type': 'string'}, 'result': entity_schema('dispatch_result')}, 'additionalProperties': False}
+
+    @application.post('/api/v1/dispatch', responses=response(dispatch_schema))
+    async def dispatch(body: DispatchRequest):
+        return integration.dispatch(body.run_id, body.state_version, body.vehicles, body.events)
     return application
 
 
