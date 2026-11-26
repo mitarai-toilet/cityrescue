@@ -1,0 +1,1 @@
+{"scenario_id":"JL-EARTHQUAKE-01","campus_id":"OSM-JIULONGHU-EXERCISE","hazard_type":"earthquake","params":{"affected_road_ids":["JL-R630436327-133"]},"duration_min":60,"step_min":10,"seed":42}
